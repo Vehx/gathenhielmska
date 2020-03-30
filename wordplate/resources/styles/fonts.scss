@@ -1,0 +1,134 @@
+/* Fonts */
+
+/* CrimsonText fonts*/
+@font-face {
+  font-family: "CrimsonText-Bold";
+
+  src: url("./fonts/CrimsonText-Bold/CrimsonText-Bold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CrimsonText-Bold/CrimsonText-Bold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CrimsonText-Bold/CrimsonText-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CrimsonText-BoldItalic";
+
+  src: url("./fonts/CrimsonText-BoldItalic/CrimsonText-BoldItalic.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CrimsonText-BoldItalic/CrimsonText-BoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CrimsonText-BoldItalic/CrimsonText-BoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+
+  src: url("./fonts/CrimsonText-Italic/CrimsonText-Italic.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CrimsonText-Italic/CrimsonText-Italic.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CrimsonText-Italic/CrimsonText-Italic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CrimsonText-Regular";
+
+  src: url("./fonts/CrimsonText-Regular/CrimsonText-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CrimsonText-Regular/CrimsonText-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CrimsonText-Regular/CrimsonText-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CrimsonText-SemiBold";
+
+  src: url("./fonts/CrimsonText-SemiBold/CrimsonText-SemiBold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CrimsonText-SemiBold/CrimsonText-SemiBold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CrimsonText-SemiBold/CrimsonText-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CrimsonText-SemiBoldItalic";
+
+  src: url("./fonts/CrimsonText-SemiBoldItalic/CrimsonText-SemiBoldItalic.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CrimsonText-SemiBoldItalic/CrimsonText-SemiBoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CrimsonText-SemiBoldItalic/CrimsonText-SemiBoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Mukta fonts */
+
+@font-face {
+  font-family: "Mukta-Bold";
+
+  src: url("./fonts/Mukta-Medium/Mukta-Bold/Mukta-Bold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Mukta-Bold/Mukta-Bold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Mukta-Bold/Mukta-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mukta-ExtraBold";
+
+  src: url("./fonts/Mukta-ExtraBold/Mukta-ExtraBold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Mukta-ExtraBold/Mukta-ExtraBold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Mukta-ExtraBold/Mukta-ExtraBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mukta-ExtraLight";
+
+  src: url("./fonts/Mukta-ExtraLight/Mukta-ExtraLight.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Mukta-ExtraLight/Mukta-ExtraLight.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Mukta-ExtraLight/Mukta-ExtraLight.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mukta-Light";
+
+  src: url("./fonts/Mukta-Light/Mukta-Light.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Mukta-Light/Mukta-Light.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Mukta-Light/Mukta-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mukta-Medium";
+
+  src: url("./fonts/Mukta-Medium/Mukta-Medium.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Mukta-Medium/Mukta-Medium.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Mukta-Medium/Mukta-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mukta-Regular";
+
+  src: url("./fonts/Mukta-Regular/Mukta-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Mukta-Regular/Mukta-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Mukta-Regular/Mukta-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mukta-SemiBold";
+
+  src: url("./fonts/Mukta-SemiBold/Mukta-SemiBold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Mukta-SemiBold/Mukta-SemiBold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Mukta-SemiBold/Mukta-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
