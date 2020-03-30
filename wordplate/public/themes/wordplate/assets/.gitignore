@@ -1,2 +1,5 @@
 *
 !.gitignore
+!fonts
+!fonts/*
+!fonts/*/*
