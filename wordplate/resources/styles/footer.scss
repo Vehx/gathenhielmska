@@ -1,0 +1,53 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contact {
+  width: 100%;
+}
+
+.footer__contact-name {
+  font-family: 'Mukta-Bold';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 124.2%;
+}
+
+.footer__contact-info-box {
+  font-family: 'Crimson-Text';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.footer__contact-title {
+  font-family: 'Mukta-Regular';
+  font-size: 13px;
+  line-height: 124.2%;
+  letter-spacing: 0.04em;
+}
+
+.footer__contact-info {}
+
+.footer__contact-booking {
+  font-family: 'Crimson-Text';
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
