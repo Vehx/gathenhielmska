@@ -3,51 +3,69 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  margin: 50px 16px 0px 16px;
+  box-sizing: border-box;
 
-.footer__contact-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  &__main-text {
+    font-family: "Mukta-Bold";
+    font-size: 16px;
+    line-height: 112.2%;
+  }
 
-.footer__contact {
-  width: 100%;
-}
+  &__contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 33px;
+  }
 
-.footer__contact-name {
-  font-family: 'Mukta-Bold';
-  font-style: normal;
-  font-size: 13px;
-  line-height: 124.2%;
-}
+  &__contact {
+    display: flex;
+    width: 100%;
+  }
 
-.footer__contact-info-box {
-  font-family: 'Crimson-Text';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 24px;
-}
+  &__contact-info-box {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    align-self: start;
+    width: 135px;
+  }
 
-.footer__contact-title {
-  font-family: 'Mukta-Regular';
-  font-size: 13px;
-  line-height: 124.2%;
-  letter-spacing: 0.04em;
-}
+  &__contact-name {
+    font-family: "Mukta-Bold";
+  }
 
-.footer__contact-info {}
+  &__contact-title {
+    font-family: "Mukta-Regular";
+  }
 
-.footer__contact-booking {
-  font-family: 'Crimson-Text';
-  font-size: 14px;
-  line-height: 19px;
-}
+  &__contact-info {
+    font-family: "CrimsonText-Regular";
+    font-size: 13px;
+    height: 48px;
+    margin-left: 35px;
+    padding-top: 11px;
+  }
 
-.footer__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  &__contact-booking {
+    font-family: "CrimsonText-Regular";
+    font-size: 14px;
+    line-height: 19px;
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta-Bold';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.11em;
+    margin-top: 46px;
+  }
 }
