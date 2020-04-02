@@ -26,7 +26,10 @@
         </div>
         <div class="footer__contact-booking">gathenhielmskabokning@gmail.com</div>
     </div>
-    <div class="footer__logo">LOGO GATHENHIELMSKA</div>
+    <div class="footer__logo">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/FooterLogo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
+        GATHENHIELMSKA
+    </div>
 </footer>
 <?php wp_footer(); ?>
 </body>
