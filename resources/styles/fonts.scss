@@ -1,0 +1,35 @@
+/* Fonts */
+
+// Font mixin
+
+@mixin font-face($family, $path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$path}.woff2') format('woff2');
+    src: url('#{$path}.woff') format('woff')
+      url('#{$path}.woff2') format('woff2')
+      url('#{$path}.svg') format('svg');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+
+/* CrimsonText fonts */
+
+@include font-face("CrimsonText-Bold", "../fonts/CrimsonText-Bold/CrimsonText-Bold");
+@include font-face("CrimsonText-BoldItalic", "../fonts/CrimsonText-BoldItalic/CrimsonText-BoldItalic");
+@include font-face("CrimsonText-Italic", "../fonts/CrimsonText-Italic/CrimsonText-Italic");
+@include font-face("CrimsonText-Regular", "../fonts/CrimsonText-Regular/CrimsonText-Regular");
+@include font-face("CrimsonText-SemiBold", "../fonts/CrimsonText-SemiBold/CrimsonText-SemiBold");
+@include font-face("CrimsonText-SemiBoldItalic", "../fonts/CrimsonText-SemiBoldItalic/CrimsonText-SemiBoldItalic");
+
+/* Mukta fonts */
+
+@include font-face("Mukta-Bold", "../fonts/Mukta-Bold/Mukta-Bold");
+@include font-face("Mukta-ExtraBold", "../fonts/Mukta-ExtraBold/Mukta-ExtraBold");
+@include font-face("Mukta-ExtraLight", "../fonts/Mukta-ExtraLight/Mukta-ExtraLight");
+@include font-face("Mukta-Light", "../fonts/Mukta-Light/Mukta-Light");
+@include font-face("Mukta-Medium", "../fonts/Mukta-Medium/Mukta-Medium");
+@include font-face("Mukta-Regular", "../fonts/Mukta-Regular/Mukta-Regular");
+@include font-face("Mukta-SemiBold", "../fonts/Mukta-SemiBold/Mukta-SemiBold");
