@@ -1,0 +1,39 @@
+/* Header */
+
+
+.header-container {
+    width: 100vw;
+    height: 87px;
+    background-color: #AEAEAE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Mukta-SemiBold";
+}
+
+.header-logo img {
+    padding: 0 0.5rem;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-lang {
+    padding: 0 1.2rem 0.2rem 1.2rem;
+}
+
+.header-lang img {
+    padding: 0 0.3rem 0 1rem;
+}
+
+.header-lang a {
+    font-family: "Mukta-Regular";
+    text-decoration: none;
+    color: black;
+}
+
+.header-lang a:active, .header-lang a:hover {
+    font-family: "Mukta-SemiBold";
+}
