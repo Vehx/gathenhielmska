@@ -22,7 +22,7 @@
                 <p>414 63 Göteborg</p>
                 <!-- todo add google maps link -->
                 <a class="footer__map" href="#">
-                    <img src="map.marker" alt="Map marker">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/MapMarker.svg" ?>" alt="Map marker">
                     <p>karta</p>
                 </a>
             </div>
@@ -30,16 +30,16 @@
     </div>
     <div class="footer__socials">
         <a href="http://twitter.com">
-            <img src="twitter" alt="Gathenhielmskas twitter">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/TwitterLogo.svg" ?>" alt="Gathenhielmska twitter">
         </a>
         <a href="http://facebook.com">
-            <img src="facebook" alt="Gathenhielmskas facebook">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/FacebookLogo.svg" ?>" alt="Gathenhielmska facebook">
         </a>
         <a href="http://youtube.com">
-            <img src="youtube" alt="Gathenhielmskas youtube">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/YoutubeLogo.svg" ?>" alt="Gathenhielmska youtube">
         </a>
         <a href="http://instagram.com">
-            <img src="instagram" alt="Gathenhielmskas instagram">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/InstagramLogo.svg" ?>" alt="Gathenhielmska instagram">
         </a>
     </div>
 </footer>
