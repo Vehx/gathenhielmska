@@ -47,7 +47,7 @@ function custom_post_type_event()
 {
 
     $labels = array(
-        'name'                  => _x('Post Events', 'Post Type General Name', 'text_domain'),
+        'name'                  => _x('Events', 'Post Type General Name', 'text_domain'),
         'singular_name'         => _x('Event', 'Post Type Singular Name', 'text_domain'),
         'menu_name'             => __('Events', 'text_domain'),
         'name_admin_bar'        => __('Events', 'text_domain'),
@@ -80,7 +80,7 @@ function custom_post_type_event()
         'description'           => __('CPT for events', 'text_domain'),
         'labels'                => $labels,
         'supports'              => array('title', 'editor', 'thumbnail', 'revisions', 'custom-fields', 'page-attributes', 'post-formats'),
-        'taxonomies'            => array('category', 'post_tag'),
+        'taxonomies'            => array('tags'),
         'hierarchical'          => false,
         'public'                => true,
         'show_ui'               => true,
