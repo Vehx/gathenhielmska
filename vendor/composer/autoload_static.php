@@ -6,26 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit9b4172382ffc155a5e78b8165abc371a
 {
-    public static $files = array (
+    public static $files = array(
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '841f98c5d948ce534a6f87abe5b50614' => __DIR__ . '/..' . '/roots/wp-password-bcrypt/wp-password-bcrypt.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'a2c48002d05f7782d8b603bd2bcb5252' => __DIR__ . '/..' . '/johnbillion/extended-cpts/extended-cpts.php',
         '413614dbc06bade22a685c0ebe14027c' => __DIR__ . '/..' . '/wordplate/acf/src/helpers.php',
         'a21e70ca1cdeca5aa284b987d10b88cd' => __DIR__ . '/..' . '/wordplate/framework/src/helpers.php',
     );
 
-    public static $prefixLengthsPsr4 = array (
-        'W' => 
-        array (
+    public static $prefixLengthsPsr4 = array(
+        'W' =>
+        array(
             'WordPlate\\Acf\\' => 14,
             'WordPlate\\' => 10,
         ),
-        'S' => 
-        array (
+        'S' =>
+        array(
             'Symfony\\Polyfill\\Php72\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Intl\\Idn\\' => 26,
@@ -35,94 +34,94 @@ class ComposerStaticInit9b4172382ffc155a5e78b8165abc371a
             'Symfony\\Component\\Mime\\' => 23,
             'Symfony\\Component\\HttpFoundation\\' => 33,
         ),
-        'P' => 
-        array (
+        'P' =>
+        array(
             'PhpOption\\' => 10,
         ),
-        'E' => 
-        array (
+        'E' =>
+        array(
             'ExtCPTs\\Tests\\' => 14,
         ),
-        'D' => 
-        array (
+        'D' =>
+        array(
             'Dotenv\\' => 7,
         ),
-        'C' => 
-        array (
+        'C' =>
+        array(
             'Composer\\Installers\\' => 20,
         ),
     );
 
-    public static $prefixDirsPsr4 = array (
-        'WordPlate\\Acf\\' => 
-        array (
+    public static $prefixDirsPsr4 = array(
+        'WordPlate\\Acf\\' =>
+        array(
             0 => __DIR__ . '/..' . '/wordplate/acf/src',
         ),
-        'WordPlate\\' => 
-        array (
+        'WordPlate\\' =>
+        array(
             0 => __DIR__ . '/..' . '/wordplate/framework/src',
         ),
-        'Symfony\\Polyfill\\Php72\\' => 
-        array (
+        'Symfony\\Polyfill\\Php72\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
+        'Symfony\\Polyfill\\Mbstring\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Intl\\Idn\\' => 
-        array (
+        'Symfony\\Polyfill\\Intl\\Idn\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-idn',
         ),
-        'Symfony\\Polyfill\\Ctype\\' => 
-        array (
+        'Symfony\\Polyfill\\Ctype\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Symfony\\Component\\VarDumper\\' => 
-        array (
+        'Symfony\\Component\\VarDumper\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Symfony\\Component\\Routing\\' => 
-        array (
+        'Symfony\\Component\\Routing\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/routing',
         ),
-        'Symfony\\Component\\Mime\\' => 
-        array (
+        'Symfony\\Component\\Mime\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/mime',
         ),
-        'Symfony\\Component\\HttpFoundation\\' => 
-        array (
+        'Symfony\\Component\\HttpFoundation\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'PhpOption\\' => 
-        array (
+        'PhpOption\\' =>
+        array(
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
-        'ExtCPTs\\Tests\\' => 
-        array (
+        'ExtCPTs\\Tests\\' =>
+        array(
             0 => __DIR__ . '/..' . '/johnbillion/extended-cpts/tests/phpunit',
         ),
-        'Dotenv\\' => 
-        array (
+        'Dotenv\\' =>
+        array(
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
-        'Composer\\Installers\\' => 
-        array (
+        'Composer\\Installers\\' =>
+        array(
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
     );
 
-    public static $prefixesPsr0 = array (
-        'j' => 
-        array (
-            'johnpbloch\\Composer\\' => 
-            array (
+    public static $prefixesPsr0 = array(
+        'j' =>
+        array(
+            'johnpbloch\\Composer\\' =>
+            array(
                 0 => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src',
             ),
         ),
     );
 
-    public static $classMap = array (
+    public static $classMap = array(
         'Composer\\Installers\\AglInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AglInstaller.php',
         'Composer\\Installers\\AimeosInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AimeosInstaller.php',
         'Composer\\Installers\\AnnotateCmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php',
@@ -586,7 +585,6 @@ class ComposerStaticInit9b4172382ffc155a5e78b8165abc371a
             $loader->prefixDirsPsr4 = ComposerStaticInit9b4172382ffc155a5e78b8165abc371a::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit9b4172382ffc155a5e78b8165abc371a::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit9b4172382ffc155a5e78b8165abc371a::$classMap;
-
         }, null, ClassLoader::class);
     }
 }
