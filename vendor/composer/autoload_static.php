@@ -6,23 +6,26 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit9b4172382ffc155a5e78b8165abc371a
 {
-    public static $files = array (
+    public static $files = array(
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '841f98c5d948ce534a6f87abe5b50614' => __DIR__ . '/..' . '/roots/wp-password-bcrypt/wp-password-bcrypt.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        'a2c48002d05f7782d8b603bd2bcb5252' => __DIR__ . '/..' . '/johnbillion/extended-cpts/extended-cpts.php',
+        '413614dbc06bade22a685c0ebe14027c' => __DIR__ . '/..' . '/wordplate/acf/src/helpers.php',
         'a21e70ca1cdeca5aa284b987d10b88cd' => __DIR__ . '/..' . '/wordplate/framework/src/helpers.php',
     );
 
-    public static $prefixLengthsPsr4 = array (
-        'W' => 
-        array (
+    public static $prefixLengthsPsr4 = array(
+        'W' =>
+        array(
+            'WordPlate\\Acf\\' => 14,
             'WordPlate\\' => 10,
         ),
-        'S' => 
-        array (
+        'S' =>
+        array(
             'Symfony\\Polyfill\\Php72\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Intl\\Idn\\' => 26,
@@ -32,82 +35,94 @@ class ComposerStaticInit9b4172382ffc155a5e78b8165abc371a
             'Symfony\\Component\\Mime\\' => 23,
             'Symfony\\Component\\HttpFoundation\\' => 33,
         ),
-        'P' => 
-        array (
+        'P' =>
+        array(
             'PhpOption\\' => 10,
         ),
-        'D' => 
-        array (
+        'E' =>
+        array(
+            'ExtCPTs\\Tests\\' => 14,
+        ),
+        'D' =>
+        array(
             'Dotenv\\' => 7,
         ),
-        'C' => 
-        array (
+        'C' =>
+        array(
             'Composer\\Installers\\' => 20,
         ),
     );
 
-    public static $prefixDirsPsr4 = array (
-        'WordPlate\\' => 
-        array (
+    public static $prefixDirsPsr4 = array(
+        'WordPlate\\Acf\\' =>
+        array(
+            0 => __DIR__ . '/..' . '/wordplate/acf/src',
+        ),
+        'WordPlate\\' =>
+        array(
             0 => __DIR__ . '/..' . '/wordplate/framework/src',
         ),
-        'Symfony\\Polyfill\\Php72\\' => 
-        array (
+        'Symfony\\Polyfill\\Php72\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
+        'Symfony\\Polyfill\\Mbstring\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Intl\\Idn\\' => 
-        array (
+        'Symfony\\Polyfill\\Intl\\Idn\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-idn',
         ),
-        'Symfony\\Polyfill\\Ctype\\' => 
-        array (
+        'Symfony\\Polyfill\\Ctype\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Symfony\\Component\\VarDumper\\' => 
-        array (
+        'Symfony\\Component\\VarDumper\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Symfony\\Component\\Routing\\' => 
-        array (
+        'Symfony\\Component\\Routing\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/routing',
         ),
-        'Symfony\\Component\\Mime\\' => 
-        array (
+        'Symfony\\Component\\Mime\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/mime',
         ),
-        'Symfony\\Component\\HttpFoundation\\' => 
-        array (
+        'Symfony\\Component\\HttpFoundation\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'PhpOption\\' => 
-        array (
+        'PhpOption\\' =>
+        array(
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
-        'Dotenv\\' => 
-        array (
+        'ExtCPTs\\Tests\\' =>
+        array(
+            0 => __DIR__ . '/..' . '/johnbillion/extended-cpts/tests/phpunit',
+        ),
+        'Dotenv\\' =>
+        array(
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
-        'Composer\\Installers\\' => 
-        array (
+        'Composer\\Installers\\' =>
+        array(
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
     );
 
-    public static $prefixesPsr0 = array (
-        'j' => 
-        array (
-            'johnpbloch\\Composer\\' => 
-            array (
+    public static $prefixesPsr0 = array(
+        'j' =>
+        array(
+            'johnpbloch\\Composer\\' =>
+            array(
                 0 => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src',
             ),
         ),
     );
 
-    public static $classMap = array (
+    public static $classMap = array(
         'Composer\\Installers\\AglInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AglInstaller.php',
         'Composer\\Installers\\AimeosInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AimeosInstaller.php',
         'Composer\\Installers\\AnnotateCmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php',
@@ -490,6 +505,74 @@ class ComposerStaticInit9b4172382ffc155a5e78b8165abc371a
         'Symfony\\Polyfill\\Intl\\Idn\\Idn' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/Idn.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php72\\Php72' => __DIR__ . '/..' . '/symfony/polyfill-php72/Php72.php',
+        'WordPlate\\Acf\\ConditionalLogic' => __DIR__ . '/..' . '/wordplate/acf/src/ConditionalLogic.php',
+        'WordPlate\\Acf\\Config' => __DIR__ . '/..' . '/wordplate/acf/src/Config.php',
+        'WordPlate\\Acf\\FieldGroup' => __DIR__ . '/..' . '/wordplate/acf/src/FieldGroup.php',
+        'WordPlate\\Acf\\Fields\\Accordion' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Accordion.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\ButtonLabel' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/ButtonLabel.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\CharacterLimit' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/CharacterLimit.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Choices' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Choices.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\ConditionalLogic' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/ConditionalLogic.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\DateTimeFormat' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/DateTimeFormat.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\DefaultValue' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/DefaultValue.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Dimensions' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Dimensions.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Endpoint' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Endpoint.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\FileSize' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/FileSize.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\FilterBy' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/FilterBy.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Height' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Height.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Instructions' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Instructions.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Layout' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Layout.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Library' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Library.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\MimeTypes' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/MimeTypes.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\MinMax' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/MinMax.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Multiple' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Multiple.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\NewLines' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/NewLines.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Nullable' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Nullable.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Pending' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Pending.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Placeholder' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Placeholder.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Required' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Required.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\ReturnFormat' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/ReturnFormat.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Step' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Step.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\SubFields' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/SubFields.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\WeekDay' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/WeekDay.php',
+        'WordPlate\\Acf\\Fields\\Attributes\\Wrapper' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Attributes/Wrapper.php',
+        'WordPlate\\Acf\\Fields\\ButtonGroup' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/ButtonGroup.php',
+        'WordPlate\\Acf\\Fields\\Checkbox' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Checkbox.php',
+        'WordPlate\\Acf\\Fields\\ColorPicker' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/ColorPicker.php',
+        'WordPlate\\Acf\\Fields\\DatePicker' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/DatePicker.php',
+        'WordPlate\\Acf\\Fields\\DateTimePicker' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/DateTimePicker.php',
+        'WordPlate\\Acf\\Fields\\Email' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Email.php',
+        'WordPlate\\Acf\\Fields\\Field' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Field.php',
+        'WordPlate\\Acf\\Fields\\File' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/File.php',
+        'WordPlate\\Acf\\Fields\\FlexibleContent' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/FlexibleContent.php',
+        'WordPlate\\Acf\\Fields\\Gallery' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Gallery.php',
+        'WordPlate\\Acf\\Fields\\GoogleMap' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/GoogleMap.php',
+        'WordPlate\\Acf\\Fields\\Group' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Group.php',
+        'WordPlate\\Acf\\Fields\\Image' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Image.php',
+        'WordPlate\\Acf\\Fields\\Layout' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Layout.php',
+        'WordPlate\\Acf\\Fields\\Link' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Link.php',
+        'WordPlate\\Acf\\Fields\\Message' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Message.php',
+        'WordPlate\\Acf\\Fields\\Number' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Number.php',
+        'WordPlate\\Acf\\Fields\\Oembed' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Oembed.php',
+        'WordPlate\\Acf\\Fields\\PageLink' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/PageLink.php',
+        'WordPlate\\Acf\\Fields\\Password' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Password.php',
+        'WordPlate\\Acf\\Fields\\PostObject' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/PostObject.php',
+        'WordPlate\\Acf\\Fields\\Radio' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Radio.php',
+        'WordPlate\\Acf\\Fields\\Range' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Range.php',
+        'WordPlate\\Acf\\Fields\\Relationship' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Relationship.php',
+        'WordPlate\\Acf\\Fields\\Repeater' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Repeater.php',
+        'WordPlate\\Acf\\Fields\\Select' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Select.php',
+        'WordPlate\\Acf\\Fields\\Tab' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Tab.php',
+        'WordPlate\\Acf\\Fields\\Taxonomy' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Taxonomy.php',
+        'WordPlate\\Acf\\Fields\\Text' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Text.php',
+        'WordPlate\\Acf\\Fields\\Textarea' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Textarea.php',
+        'WordPlate\\Acf\\Fields\\TimePicker' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/TimePicker.php',
+        'WordPlate\\Acf\\Fields\\TrueFalse' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/TrueFalse.php',
+        'WordPlate\\Acf\\Fields\\Url' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Url.php',
+        'WordPlate\\Acf\\Fields\\User' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/User.php',
+        'WordPlate\\Acf\\Fields\\Wysiwyg' => __DIR__ . '/..' . '/wordplate/acf/src/Fields/Wysiwyg.php',
+        'WordPlate\\Acf\\Key' => __DIR__ . '/..' . '/wordplate/acf/src/Key.php',
+        'WordPlate\\Acf\\Location' => __DIR__ . '/..' . '/wordplate/acf/src/Location.php',
         'WordPlate\\Application' => __DIR__ . '/..' . '/wordplate/framework/src/Application.php',
         'WordPlate\\PluginLoader' => __DIR__ . '/..' . '/wordplate/framework/src/PluginLoader.php',
         'johnpbloch\\Composer\\WordPressCoreInstaller' => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src/johnpbloch/Composer/WordPressCoreInstaller.php',
@@ -503,7 +586,6 @@ class ComposerStaticInit9b4172382ffc155a5e78b8165abc371a
             $loader->prefixDirsPsr4 = ComposerStaticInit9b4172382ffc155a5e78b8165abc371a::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit9b4172382ffc155a5e78b8165abc371a::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit9b4172382ffc155a5e78b8165abc371a::$classMap;
-
         }, null, ClassLoader::class);
     }
 }

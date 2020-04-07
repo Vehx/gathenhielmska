@@ -10,10 +10,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "johnbillion/extended-cpts": "^4.3",
+        "wordplate/acf": "^8.2",
         "wordplate/framework": "^8.0",
         "wordplate/plate": "^6.0",
-        "johnbillion/extended-cpts": "^4.3",
-        "wordplate/acf": "^8.2"
+        "wpackagist-plugin/advanced-custom-fields": "^5.8"
     },
     "config": {
         "optimize-autoloader": true,
