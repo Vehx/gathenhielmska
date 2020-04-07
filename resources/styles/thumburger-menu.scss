@@ -1,21 +1,25 @@
 /* Thumburger */
 
+    @media only screen and (min-width: 992px) {
+        .thumburger-menu {
+          display: none;
+        }
+      }
 
 .thumburger-menu {
     height: 81px;
     width: 81px;
-    background-color: #DBDBDB;
+    background-color: #FF6915;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 1rem;
     position: fixed;
-    top: 82vh;
-    left: 37vw;
+    top: 80vh;
+    left: 65vw;
     transition: 0.5s ease-in-out;
-    font-size: 18px;
-    font-family: "Mukta-Regular";
+    font-size: 57px;
+    font-family: "CrimsonText-Bold";
+    color: #FFFFFF;
 }
 
 .thumburger-cancel {
@@ -26,69 +30,221 @@
     display: none;
 }
 
+.flex {
+    display: flex;
+}
+
 .open-menu {
-    transform: translateZ(30deg);
-    height: 90vh;
+    height: 100%;
     width: 100vw;
-    background-color: #AEAEAE;
+    background-color: #333F46;
     color: white;
-    font-family: "Mukta-SemiBold";
+    font-family: "CrimsonText-SemiBold";
 }
 
 .menu-links {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .menu-links a {
     text-decoration: none;
     color: white;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.7rem;
 }
 
-.menu-links p {
-    font-weight: bold;
+.menu-lang {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Mukta-ExtraLight";
+}
+
+.menu-lang a:active {
+    font-family: "Mukta-ExtraBold";
+}
+
+
+.menu-english {
+    padding: 0 0 0 1rem;
+}
+
+.menu-english a, .menu-swedish a {
+    display: flex;
+}
+
+.menu-english a p, .menu-swedish a p {
+    padding-left: 0.3rem;
+}
+
+.menu-event-expand, .menu-about-expand, .menu-archive-expand, .menu-contact-expand {
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu-event-expand p, .menu-about-expand p, .menu-archive-expand p, .menu-contact-expand p {
     font-weight: normal;
-    color: black;
-    padding: 0 0.5rem 1rem 0.5rem;
-    font-family: "Mukta-Regular";
+    color: rgba(255, 255, 255, 0.61);
+    padding: 0 0.5rem 0rem 0.5rem;
+    font-family: "Mukta-Light";
+    font-size: 22px;
 }
 
 .menu-event, .menu-about, .menu-archive, .menu-contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 0.5rem;
-    color: black;
+    color: #FFFFFF;
+    font-size: 32px;
 }
 
-.menu-login {
-    display: flex;
-    padding: 0 0.5rem;
-    color: black;
+.menu-event p, .menu-event a img {
+    padding-left: 5rem;
 }
 
-.menu-login img {
-    padding: 0 0 0 0.5rem;
+.menu-about p, .menu-about a img {
+    padding-left: 4.55rem;
+}
+
+.menu-archive p, .menu-archive a img {
+    padding-left: 4.90rem;
+}
+
+.menu-contact p, .menu-contact a img {
+    padding-left: 4.10rem;
 }
 
 .menu-cancel {
     width: 45px;
     height: 45px;
-    background-color: #696969;
+    background-color: #FFFFFF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
     position: fixed;
-    top: 85vh;
-    left: 40vw;
+    top: 80vh;
+    left: 81vw;
     transition: 0.5s ease-in-out;
     border: none;
     color: white;
+}
+
+.menu-login-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.menu-login, .menu-create-account {
+    font-family: "Mukta-Regular";
+    font-size: 14px;
+    width: 170px;
+    height: 35px;
+    margin-bottom: 1rem;
+}
+
+.menu-login {
+    color: white;
+    border: 1px solid #F5EEE7;
+    background-color: #333F46;
+}
+
+.menu-create-account {
+    color: black;
+    background-color: #F5EEE7;
+    border: 1px solid #F5EEE7;
+}
+
+.menu-line {
+    border-top: 1px solid #525252;
+    width: 298px;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.menu-search, .menu-search-button {
+    height: 35px;
+    border: 1px solid #F5EEE7;
+}
+
+.menu-search {
+    border: 1px solid #F5EEE7;
+    height: 35px;
+    width: 202px;
+    background-color: #333F46;
+}
+
+.menu-search::placeholder {
+    font-family: "Mukta-Regular";
+    font-size: 16px;
+    color: #BFBFBF;
+    text-align: center;
+}
+
+.menu-search::placeholder, .menu-search-button {
+    font-size: 16px;
+}
+
+.menu-search-button {
+    width: 52px;
+    background-color: #F5EEE7;
+    font-size: 14px;
+}
+
+.menu-search-field {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.menu-social-media {
+    padding-top: 3rem;
+    align-self: center;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.menu-newsletter p {
+    font-family: "CrimsonText-SemiBold";
+    font-size: 24px;
+    padding-bottom: 1.5rem;
+}
+
+.menu-newsletter input {
+    width: 178px;
+    background-color: #333F46;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+}
+
+.menu-newsletter input::placeholder {
+    margin-bottom: 0.5rem;
+    font-family: "Mukta-ExtraLight";
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu-subscribe-button {
+    width: 137px;
+    height: 35px;
+    margin-top: 1.5rem;
+    background-color: #333F46;
+    border: 1px solid white;
+    color: white;
+    font-family: "Mukta-Light";
+    font-size: 17px;
 }
