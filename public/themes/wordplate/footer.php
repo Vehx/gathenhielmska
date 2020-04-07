@@ -7,17 +7,17 @@
     </div>
     <div class="footer__center-wrapper">
         <div class="footer__newsletter">
-            <h3 class="footer__newsletter-text">Prenumerera på vårt nyhetsbrev</h3>
-            <p>Mailadress</p>
+            <p class="footer__newsletter-title">Prenumerera på vårt nyhetsbrev</p>
+            <p class="footer__newsletter-text">Mailadress</p>
             <form class="footer__newsletter-form" action="/" method="post">
                 <input type="email" placeholder="name@mail.com"><button type="submit">SKICKA</button>
             </form>
         </div>
         <div class="footer__information">
             <div class="footer__directions">
-                <h3>Hitta hit</h3>
-                <p>Stigbergstorget 7</p>
-                <p>414 63 Göteborg</p>
+                <p class="footer__directions-find">Hitta hit</p>
+                <p class="footer__directions-adress">Stigbergstorget 7</p>
+                <p class="footer__directions-adress">414 63 Göteborg</p>
                 <a class="footer__map" href="https://goo.gl/maps/z3aKagMzZx34MQQx5" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/MapMarker.svg" ?>" alt="Map marker" loading="lazy">
                     <p>karta</p>
@@ -25,7 +25,7 @@
             </div>
             <div class="footer__contact">
                 <div class="footer__contact-number">0737-56 67 78</div>
-                <div class="footer__contact-email">hej@gathenhielmska.se</div>
+                <p class="footer__contact-email">gathenhielmskabokning@gmail.com</p>
             </div>
         </div>
     </div>
