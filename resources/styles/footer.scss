@@ -13,35 +13,59 @@
   // footer text #000000
   // footer faded text #999999
   // footer button color #333F46
+  // footer border color #BFBFBF
+  $border-color: #BFBFBF;
+  $text-color: #000000;
+  $faded-text-color: #999999;
+  $button-color: #333F46;
+
+  &__top-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 174px;
+    width: 100%;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+  }
 
   &__logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
+
     font-family: 'Mukta-Bold';
-    font-size: 14px;
+    font-size: 20.5px;
     line-height: 23px;
     letter-spacing: 0.11em;
-    // margin-top: 46px;
     img {
-      // margin-right: 5px;
+      height: 35px;
+      width: 45px;
+      margin-bottom: 10px;
     }
   }
 
   &__center-wrapper {
     display: flex;
     flex-direction: column;
+    height: 323px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   &__newsletter-form {
+    width: 100%;
     input {
-      width: 220px;
+      width: 70%;
       background: rgba(255, 255, 255, 0.9);
       border: none;
     }
     button {
-      width: 90px;
+      width: 30%;
       background: #333F46;
       color: #FFFFFF;
       border: none;
@@ -87,6 +111,7 @@
     font-size: 15px;
     line-height: 19px;
     text-decoration: none;
+    color: $text-color;
 
     p {
       margin-top: 4px;
@@ -96,11 +121,17 @@
 
   &__bottom-wrapper {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid $border-color;
   }
 
   &__socials {
-
+    display: flex;
+    justify-content: space-around;
+    width: 205px;
   }
 
 

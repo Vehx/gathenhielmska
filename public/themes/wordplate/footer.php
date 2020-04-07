@@ -2,7 +2,7 @@
     <div class="footer__top-wrapper">
         <div class="footer__logo">
             <img src="<?php echo get_template_directory_uri() . "/assets/images/FooterLogo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
-            GATHENHIELMSKA
+            <p>GATHENHIELMSKA</p>
         </div>
     </div>
     <div class="footer__center-wrapper">
@@ -18,7 +18,6 @@
                 <h3>Hitta hit</h3>
                 <p>Stigbergstorget 7</p>
                 <p>414 63 Göteborg</p>
-                <!-- todo add google maps link -->
                 <a class="footer__map" href="https://goo.gl/maps/z3aKagMzZx34MQQx5" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/MapMarker.svg" ?>" alt="Map marker" loading="lazy">
                     <p>karta</p>
