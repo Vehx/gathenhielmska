@@ -10,7 +10,8 @@
             <p class="footer__newsletter-title">Prenumerera på vårt nyhetsbrev</p>
             <p class="footer__newsletter-text">Mailadress</p>
             <form class="footer__newsletter-form" action="/" method="post">
-                <input type="email" placeholder="name@mail.com"><button type="submit">SKICKA</button>
+                <label hidden for="email">Mailadress</label>
+                <input type="email" name="email" id="email" placeholder="name@mail.com"><button type="submit">SKICKA</button>
             </form>
         </div>
         <div class="footer__information">
@@ -39,6 +40,17 @@
                 <img src="<?php echo get_template_directory_uri() . "/assets/images/YoutubeLogo.svg" ?>" alt="Gathenhielmska youtube" loading="lazy"></a>
             <a href="http://instagram.com">
                 <img src="<?php echo get_template_directory_uri() . "/assets/images/InstagramLogo.svg" ?>" alt="Gathenhielmska instagram" loading="lazy"></a>
+        </div>
+    </div>
+    <div class="footer__logo-wrapper">
+        <div class="footer__logo-gs">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/goteborg.png" ?>" alt="Göteborgs stad" loading="lazy">
+        </div>
+        <div class="footer__logo-higab">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/higab.png" ?>" alt="Higab" loading="lazy">
+        </div>
+        <div class="footer__logo-sfr">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/SFR.png" ?>" alt="Studiefämjandet" loading="lazy">
         </div>
     </div>
 </footer>
