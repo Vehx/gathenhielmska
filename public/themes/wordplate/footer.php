@@ -44,13 +44,13 @@
     </div>
     <div class="footer__logo-wrapper">
         <div class="footer__logo-gs">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/goteborg.png" ?>" alt="">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/goteborg.png" ?>" alt="Göteborgs stad" loading="lazy">
         </div>
         <div class="footer__logo-higab">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/higab.png" ?>" alt="">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/higab.png" ?>" alt="Higab" loading="lazy">
         </div>
         <div class="footer__logo-sfr">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/SFR.png" ?>" alt="">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/SFR.png" ?>" alt="Studiefämjandet" loading="lazy">
         </div>
     </div>
 </footer>
