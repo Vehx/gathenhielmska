@@ -8,8 +8,9 @@
     <div class="footer__center-wrapper">
         <div class="footer__newsletter">
             <p class="footer__newsletter-title">Prenumerera på vårt nyhetsbrev</p>
+            <p class="footer__newsletter-text">Mailadress</p>
             <form class="footer__newsletter-form" action="/" method="post">
-                <label class="footer__newsletter-text" for="email">Mailadress</label>
+                <label hidden for="email">Mailadress</label>
                 <input type="email" name="email" id="email" placeholder="name@mail.com"><button type="submit">SKICKA</button>
             </form>
         </div>
