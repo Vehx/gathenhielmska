@@ -1,0 +1,99 @@
+/* Some default for Gathenhielmska */
+img.attachment-medium.size-medium.wp-post-image {
+  width: 100%;
+}
+
+/* Event CSS */
+.event-listing {
+  background: #f5eee7;
+  padding: 10px 0;
+}
+.event {
+  background-color: white;
+  padding: 10px 16px;
+  margin: 40px 0;
+}
+.event-heading {
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 110%;
+  color: black;
+  margin-bottom: 10px;
+}
+.eventlink,
+.eventlink:visited {
+  text-decoration: none;
+}
+.event-type {
+  color: #ff6915;
+}
+a.eventlink > p {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+}
+.event-cta {
+  display: flex;
+}
+.event-time {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  color: #000000;
+}
+.event-ticket {
+  background: #58616c;
+  padding: 5px 0;
+  width: 89px;
+}
+.event-ticket-link {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+}
+.event-readmore {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background-color: white;
+  border: 1px solid #999999;
+  box-sizing: border-box;
+  padding: 5px 0;
+  width: 89px;
+  text-transform: uppercase;
+}
+.event-info-bottom {
+  font-size: 20px;
+  font-family: Crimson Text;
+  font-weight: 600;
+  line-height: 27px;
+}
+.event-info-bottom-p {
+  margin-top: 10px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
