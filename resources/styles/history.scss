@@ -1,17 +1,180 @@
-.history__text {
-  text-decoration: underline;
-}
+.history {
+  $border-color: rgba(0, 0, 0, 0.205);
+  $text-color-light: #ffffff;
+  $text-color-dark: #000000;
+  $title-box-color: #54384c;
+  $intro-background-color: #a1a7aa;
+  $timeline-color: rgba(0, 0, 0, 0.4);
 
-main {
-  display: flex;
-}
+  &__title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 295px;
+    width: 100%;
+    background: $title-box-color;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1), 0px 0px 3px rgba(0, 0, 0, 0.1);
+    font-family: "Mukta-Regular";
+    font-size: 32px;
+    letter-spacing: 0.02em;
 
-.test1 {
-  width: 10%;
-  height: 100px;
-}
+    color: $text-color-light;
+  }
 
-.test2 {
-  width: 90%;
-  height: 100%;
+  &__breadcrumbs {
+    height: 187px;
+    width: 100%;
+  }
+
+  &__intro-text {
+    height: 261px;
+    width: 100%;
+    font-family: "CrimsonText-Bold";
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    padding: 10%;
+    color: $text-color-dark;
+    background-color: $intro-background-color;
+  }
+
+  &__text {
+    text-decoration: underline;
+  }
+
+  &__capital {
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  &__timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__timeline-line {
+    width: 15%;
+
+    &-year {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $timeline-color;
+      font-family: "Mukta-Regular";
+      font-size: 13px;
+      // line-height: 22px;
+      /* identical to box height */
+    }
+
+    &-pre {
+      height: 75px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+
+    &-one {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+
+    &-two {
+      height: 161px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+
+    &-three {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+    &-four {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+    &-five {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+    &-six {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+    &-seven {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+    &-eight {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+    &-nine {
+      height: 138px;
+      margin-left: 50%;
+      border-left: 1px solid $timeline-color;
+    }
+  }
+
+  &__timeline-story {
+    width: 85%;
+    height: 100%;
+    padding-right: 10%;
+
+    &-one {
+      height: 180px;
+      margin-top: 75px;
+    }
+    &-two {
+      height: 186px;
+      margin-top: 34px;
+    }
+    // &__timeline-story-two-img {
+    // z-index: -1;
+    // }
+    &-three {
+      height: 143px;
+      margin-top: 20px;
+    }
+    &-four {
+      height: 77px;
+      margin-top: 20px;
+    }
+    &-five {
+      height: 165px;
+      margin-top: 20px;
+    }
+    &-six {
+      height: 125px;
+      margin-top: 20px;
+    }
+    &-seven {
+      height: 289px;
+      margin-top: 20px;
+    }
+    &-eight {
+      height: 77px;
+      margin-top: 20px;
+    }
+    &-nine {
+      height: 77px;
+      margin-top: 20px;
+    }
+    &-ten {
+      height: 77px;
+      margin-top: 20px;
+    }
+  }
+
+  &__end-text {
+    font-family: "CrimsonText-Regular";
+    font-size: 14px;
+    padding: 15% 10% 10% 10%;
+    border-top: 1px solid $border-color;
+  }
 }
