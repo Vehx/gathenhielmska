@@ -52,7 +52,7 @@
             <div class="history__timeline-story-seven">
                 <div>
                     Anna Dahlström
-                    <img src="<?php echo get_template_directory_uri() . "/assets/images/TwitterLogo.svg" ?>" alt="Anna Dahlström" loading="lazy">
+                    <!-- <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy"> -->
                     var född år 1867 och kom att utbilda sig till ögonläkare. Hon blev medicinelicentiat år 1899. Hon etablerade sig sedan till privatpraktiserande ögonläkare i Göteborg och hade praktik bland annat på Östra Hamngatan 36, men hade även mottagning i Gathenhielmska huset vardagsförmiddagar.
                 </div>
             </div>
