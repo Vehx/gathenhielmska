@@ -48,8 +48,8 @@
 
   &__timeline {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
   }
 
   &__timeline-line {
@@ -62,8 +62,8 @@
       color: $timeline-color;
       font-family: "Mukta-Regular";
       font-size: 13px;
-      // line-height: 22px;
-      /* identical to box height */
+      margin-top: 22px;
+      margin-bottom: 22px;
     }
 
     &-pre {
@@ -85,37 +85,37 @@
     }
 
     &-three {
-      height: 138px;
+      height: 110px;
       margin-left: 50%;
       border-left: 1px solid $timeline-color;
     }
     &-four {
-      height: 138px;
+      height: 44px;
       margin-left: 50%;
       border-left: 1px solid $timeline-color;
     }
     &-five {
-      height: 138px;
+      height: 132px;
       margin-left: 50%;
       border-left: 1px solid $timeline-color;
     }
     &-six {
-      height: 138px;
+      height: 92px;
       margin-left: 50%;
       border-left: 1px solid $timeline-color;
     }
     &-seven {
-      height: 138px;
+      height: 256px;
       margin-left: 50%;
       border-left: 1px solid $timeline-color;
     }
     &-eight {
-      height: 138px;
+      height: 300px;
       margin-left: 50%;
       border-left: 1px solid $timeline-color;
     }
     &-nine {
-      height: 138px;
+      height: 25px;
       margin-left: 50%;
       border-left: 1px solid $timeline-color;
     }
@@ -123,51 +123,47 @@
 
   &__timeline-story {
     width: 85%;
-    height: 100%;
     padding-right: 10%;
+    padding-bottom: 75px;
 
     &-one {
-      height: 180px;
-      margin-top: 75px;
+      height: 206px;
+      margin-top: 74px;
     }
     &-two {
-      height: 186px;
-      margin-top: 34px;
+      height: 204px;
+      margin-top: 22px;
     }
     // &__timeline-story-two-img {
     // z-index: -1;
     // }
     &-three {
-      height: 143px;
-      margin-top: 20px;
+      height: 154px;
+      margin-top: 22px;
     }
     &-four {
-      height: 77px;
-      margin-top: 20px;
+      height: 88px;
+      margin-top: 22px;
     }
     &-five {
-      height: 165px;
-      margin-top: 20px;
+      height: 176px;
+      margin-top: 22px;
     }
     &-six {
-      height: 125px;
-      margin-top: 20px;
+      height: 136px;
+      margin-top: 22px;
     }
     &-seven {
-      height: 289px;
-      margin-top: 20px;
+      height: 322px;
+      margin-top: 22px;
     }
     &-eight {
-      height: 77px;
-      margin-top: 20px;
+      height: 344px;
+      margin-top: 22px;
     }
     &-nine {
-      height: 77px;
-      margin-top: 20px;
-    }
-    &-ten {
-      height: 77px;
-      margin-top: 20px;
+      height: 69px;
+      margin-top: 22px;
     }
   }
 

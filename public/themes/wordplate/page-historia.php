@@ -55,11 +55,11 @@
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/TwitterLogo.svg" ?>" alt="Anna Dahlström" loading="lazy">
                     var född år 1867 och kom att utbilda sig till ögonläkare. Hon blev medicinelicentiat år 1899. Hon etablerade sig sedan till privatpraktiserande ögonläkare i Göteborg och hade praktik bland annat på Östra Hamngatan 36, men hade även mottagning i Gathenhielmska huset vardagsförmiddagar.
                 </div>
-            </div class="history__timeline-story-eight">
-            <div class="history__timeline-story-nine">
+            </div>
+            <div class="history__timeline-story-eight">
                 När Anna Dahlström dog år 1941, hade hon testamenterat fastigheten till sitt kusinbarn Vera Tham, som flyttade från Stockholm med sin familj och bosatte sig i huset. Hon ansökte år 1943 om att huset och trädgården skulle erhålla kulturminnesskydd. Trots att huset var privatbostad höll hon visningar av dess intressanta interiör i olika sammanhang. Åren 1969-1987 var Vera Thams barn Per-Vollrath och Louise 1941 Gathenhielmska husets ägare. De fullföljde under de sista årtiondena Vera Thams intentioner beträffande omvårdnad och husets tillgänglighet för specialvisningar fram till dess försäljning till Göteborgs stad.
             </div>
-            <div class="history__timeline-story-ten">
+            <div class="history__timeline-story-nine">
                 Efter beslut i kommunfullmäktige år 1986 övertog Göteborgs stad huset med tillträde 1987.
             </div>
         </div>
