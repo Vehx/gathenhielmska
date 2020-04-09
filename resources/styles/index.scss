@@ -1,0 +1,134 @@
+.index-hero {
+    padding-bottom: 2rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1), 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.index-hero h3 {
+    font-family: "Mukta-SemiBold";
+    font-size: 26px;
+    padding: 0.5rem 1rem;
+    line-height: 26px;
+}
+
+.index-hero h5 {
+    font-family: "CrimsonText-SemiBold";
+    font-size: 20px;
+    padding: 0 1rem;
+    line-height: 135.16%;
+}
+
+.index-comming-events {
+    padding: 1rem 1rem;
+    font-family: "Mukta-Regular";
+    font-size: 16px;
+}
+
+.index-event {
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
+.index-event p:first-child {
+    font-family: "CrimsonText-Regular";
+    font-size: 26px;
+}
+
+.index-event p:last-child {
+    font-family: "Mukta-Regular";
+    font-size: 16px;
+    line-height: 100%;
+    padding-top: 0.3rem;
+}
+
+.index-event-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 13rem;
+}
+
+.index-event-images a {
+    text-decoration: none;
+    color: black;
+}
+
+.index-video {
+    font-family: "Mukta-SemiBold";
+    font-size: 12px;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1), 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.index-video p {
+    padding: 1rem;
+}
+
+.index-archive {
+    padding: 2rem 2rem 4rem 2rem;
+    background-color: #F5EEE7;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1), 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.index-curious {
+    font-family: "CrimsonText-Regular";
+    font-size: 26px;
+    padding: 5rem 0;
+}
+
+.index-archive-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Mukta-Regular";
+}
+
+.index-pictures, .index-movies, .index-previous-event {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-pictures a, .index-movies a, .index-previous-event a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.index-movies {
+    padding: 0 0 0.1rem 1rem;
+}
+
+.index-previous-event {
+    line-height: 20px;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+
+.index-quote {
+    height: 282px;
+    background-color: #333F46;
+    color: white;
+    font-family: "CrimsonText-Regular";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.index-quote img {
+    padding: 0 0 1rem 2rem;
+}
+
+.index-quote p:first-of-type {
+    font-size: 26px;
+    align-self: center;
+    padding-bottom: 1rem;
+}
+
+.index-quote p:last-child {
+    font-size: 12px;
+    align-self: flex-end;
+    padding-right: 4rem;
+}
+

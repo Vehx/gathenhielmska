@@ -119,6 +119,7 @@
             </div>
         </div>
 
-        <button aria-label="open" class="thumburger-menu">=</button>
+        <button aria-label="open" class="thumburger-menu"><img src="<?php echo get_template_directory_uri() . "/assets/images/menu.svg" ?>" alt="Menu icon" loading="lazy"><img>
+        </button>
 
     </header>
