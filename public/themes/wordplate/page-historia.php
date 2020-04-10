@@ -34,8 +34,10 @@
                 <span class="history__capital">H</span>uset uppfördes emellertid långt efter Lars Gathenhielms död av hans svåger kommissarien Johan Busck sannolikt mellan åren 1744 och 1747. Busck hade köpt ”Gamla reparebanan” med alla därpå befintliga hus och pannor samt ”gården, Lieutenant Collins benämnd”, av sin brorson Anders Gathenhielm.
             </div>
             <div class="history__timeline-story-two">
-                <!-- <img class="history__timeline-story-two-img" src="<?php echo get_template_directory_uri() . "/assets/images/huset-svartvit.png" ?>" alt="Gathenhielmska huset" loading="lazy"> -->
-                Renoveringen genomfördes av konstnären Johan Nilsson, make till ägaren medicine doktor Anna Nilsson. Johan Buscks arvingar sålde huset på offentlig auktion till superkargören Johan Petter Tranchell år 1816.
+                <img class="history__timeline-story-two-img" src="<?php echo get_template_directory_uri() . "/assets/images/huset-svartvit.png" ?>" alt="Gathenhielmska huset" loading="lazy">
+                <p>
+                    Renoveringen genomfördes av konstnären Johan Nilsson, make till ägaren medicine doktor Anna Nilsson. Johan Buscks arvingar sålde huset på offentlig auktion till superkargören Johan Petter Tranchell år 1816.
+                </p>
             </div>
             <div class="history__timeline-story-three">
                 Tranchell hade varit i Ostindiska kompaniets tjänst och gjort flera resor till Kina. När Ostindiska kompaniet avvecklades 1813, ägnade han sig åt affärsverksamhet i Göteborg. Tranchell sålde år 1824 huset till bruksägaren Fredrik Ulrik von Aken.
@@ -52,12 +54,12 @@
             <div class="history__timeline-story-seven">
                 <div class="history__timeline-story-seven-split">
                     <div>
-                        Anna Dahlström var född år 1867 och kom att utbilda sig till ögonläkare. Hon blev medicinelicentiat år 1899. Hon etablerade sig sedan till privatpraktiserande ögonläkare i Göteborg och hade praktik bland annat
+                        <span class="history__capital">A</span>nna Dahlström var född år 1867 och kom att utbilda sig till ögonläkare. Hon blev medicinelicentiat år 1899.<br> Hon etablerade sig sedan till privatpraktiserande ögonläkare i Göteborg och hade
                     </div>
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
                 </div>
                 <p>
-                    på Östra Hamngatan 36, men hade även mottagning i Gathenhielmska huset vardagsförmiddagar.
+                    praktik bland annatpå Östra Hamngatan 36, men hade även mottagning i Gathenhielmska huset vardagsförmiddagar.
                 </p>
             </div>
             <div class="history__timeline-story-eight">
