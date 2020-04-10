@@ -21,7 +21,7 @@
             <div class="history__timeline-line-five"></div>
             <div class="history__timeline-line-year">1891</div>
             <div class="history__timeline-line-six"></div>
-            <div class="history__timeline-line-year">Anna Dahlström</div>
+            <div class="history__timeline-line-year">Anna<br>Dahlström</div>
             <div class="history__timeline-line-seven"></div>
             <div class="history__timeline-line-year">1941</div>
             <div class="history__timeline-line-eight"></div>
