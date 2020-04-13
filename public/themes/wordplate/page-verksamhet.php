@@ -1,7 +1,12 @@
 <?php get_header(); ?>
 
 <main role="main" class="operations">
-    <div class="operations__title-box">Verksamheter</div>
+    <div class="operations__title-box">
+        <img class="operations__title-box-img" src="<?php echo get_template_directory_uri() . "/assets/images/Operations-Title.png" ?>" alt="Tapet i huset" loading="lazy">
+        <p class="operations__title-box-title">
+            Verksamheten
+        </p>
+    </div>
     <div class="operations__breadcrumbs">
         <a href="/">
             <span class="breadcrumb-faded">HEM</span>
@@ -12,10 +17,12 @@
         </a>
         >
         <a href="/verksamhet">
-            <span class="breadcrumb-active">VERKSAMHETER</span>
+            <span class="breadcrumb-active">VERKSAMHETEN</span>
         </a>
     </div>
-    <div class="operations__page-info"></div>
+    <div class="operations__page-info">
+        Här nedan hittar ni en kort text kring våra <br>tankar med verksamheterna här i huset.
+    </div>
     <div class="operations__intro-text">
         <img src="<?php echo get_template_directory_uri() . "/assets/images/Staircase.png" ?>" alt="Trappa i Gathenhielmska huset" loading="lazy">
         <div class="operations__text">
