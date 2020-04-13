@@ -12,16 +12,19 @@ const aboutExpand = document.querySelector(".menu-about-expand");
 const archiveExpand = document.querySelector(".menu-archive-expand");
 const contactExpand = document.querySelector(".menu-contact-expand");
 const headerContainer = document.querySelector(".header-container");
+const bodyElement = document.querySelector("body");
 
 thumbMenu.addEventListener("click", e => {
   openMenu.classList.remove("hidden");
   thumbMenu.classList.add("hidden");
+  bodyElement.classList.add("fixedPosition");
   headerContainer.classList.add("hidden");
 });
 
 cancelMenu.addEventListener("click", e => {
   openMenu.classList.add("hidden");
   thumbMenu.classList.remove("hidden");
+  bodyElement.classList.remove("fixedPosition");
   headerContainer.classList.remove("hidden");
 });
 

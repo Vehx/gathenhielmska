@@ -28,13 +28,21 @@
     display: flex;
 }
 
+.fixedPosition {
+    position: fixed;
+    overflow: hidden;
+}
+
+
 .open-menu {
     height: 100%;
     width: 100vw;
     background-color: #333F46;
     color: white;
     font-family: "CrimsonText-SemiBold";
-    overflow: scroll;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0; left: 0; right: 0; bottom: 0;
 }
 
 .menu-links {
