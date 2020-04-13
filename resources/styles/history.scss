@@ -73,8 +73,6 @@
 
   &__timeline {
     display: flex;
-    // justify-content: center;
-    // align-items: center;
   }
 
   &__timeline-line {
@@ -187,7 +185,6 @@
       }
       p {
         color: $text-color-light;
-        // padding-top: 10px;
         max-width: 186px;
       }
     }
@@ -209,7 +206,6 @@
     }
     &-seven {
       height: 322px;
-      // margin-top: 22px;
 
       &-split {
         display: flex;
@@ -247,5 +243,48 @@
     font-size: 16px;
     padding: 20% 10% 20% 10%;
     border-top: 1px solid $border-color;
+  }
+
+  &__renovation-imgs {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__renovation-text {
+    display: flex;
+
+  }
+
+  &__renovation-timeline {
+    margin-right: 10px;
+    margin-left: 5%;
+  }
+
+  &__renovation-year {
+    padding-top: 2px;
+    margin-bottom: 15px;
+    color: $timeline-color;
+  }
+
+  &__renovation-line {
+    height: 200px;
+    margin-left: 50%;
+    border-left: 1px solid $timeline-color;
+  }
+
+  &__renovation-text-story {
+    font-family: "CrimsonText-Regular";
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 10%;
+  }
+
+  &__renovation-large-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 495;
+    padding: 15% 0;
   }
 }

@@ -101,9 +101,9 @@
         </p>
     </div>
     <div class="history__renovation-imgs">
-        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
-        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
-        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Renovation1.png" ?>" alt="Bild på renovering i huset" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Renovation2.png" ?>" alt="Bild på renovering i huset" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Renovation3.png" ?>" alt="Bild på renovering i huset" loading="lazy">
     </div>
     <div class="history__renovation-text">
         <div class="history__renovation-timeline">
@@ -113,7 +113,7 @@
         <div class="history__renovation-text-story">Än i dag fortsätter underhållet av fastigheten. Köket får sig en uppfrächning av väggarna med en linoljefärg likt förr. En teknik som dör ut med den gamla skolan. Snart finns det inte många kvar som vet hur man på ett korrekt sätt tar hand om sådana gamla hus. Där av ännu viktigare att dra fram Gathenhilmska huset från skuggan och offentliggöra en unik fastighet som ligger till grund för stigbergstorgets utseénde.</div>
     </div>
     <div class="history__renovation-large-img">
-        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Renovation4.png" ?>" alt="Bild på renovering i huset" loading="lazy">
     </div>
 </main>
 
