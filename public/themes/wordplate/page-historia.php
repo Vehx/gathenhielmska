@@ -83,8 +83,26 @@
             </div>
         </div>
     </section>
-    <div class="history__end-text">
-        <span class="history__capital">F</span>ram till 1846 hade Gathenhielmska huset karaktären av ett högreståndsmässigt lantställe. Under senare delen av 1800-talet och en bit in på 1900-talet kom en nyttoinriktning att prägla huset med lägenheter och butiker. Eftersom stt Anna Dahlström var ekonomiskt oberoende, beslöt hon att kosta på sitt hus en grundlig restaurering. Genom Röhsska museets första chef Axel Nilsson fick hon kontakt med den konservatorsutbildade konstnären Johan Nilsson. Tillsammans med honom inleddes år 1916 arbetet med att i görligaste mån återställa huset i ursprungligt skick. År 1920 ingick Anna Dahlström och Johan Nilsson äktenskap. Renoveringen av huset blev deras gemensamma projekt. År 1933 hotades huset av rivning. Johan Nilsson engagerade sig med kraft i arbetet för att bevara huset. Han fick stöd av Sjöfartsmuseets dåvarande chef Olof Traung, Gamla Majpojkars förbund och Majornas kommunalförening. Kulturminnesföreningen Gathenhielm bildades. Även den legendariske chefredaktören Torgny Segerstedt engagerade sig i frågan. Protesterna medförde att planerna på att riva Gathenhielmska huset och jämna de övriga 1700-talsbyggnaderna i dess närhet stoppades. 1936 antog stadsfullmäktige en ny stadsplan, som innebar att huset räddades och förutsättningarna för att inrätta ett kulturreservat kom på plats. Redan år 1935 hade kulturminnesföreningen överenskommit med staden om underhåll och nyttjanderätt till husen i det som idag utgör Gathenhielmska reservatet. Johan Nilsson måste vid Anna Dahlströms frånfälle på grund av hennes testamente lämna sin bostad i Gathenhielmska huset. Han bereddes en hedersbostad i fastigheten Härbärget inne i reservatet. Under senare år sysslade han bland annat med att samla material till ett reservatmuseum, som han testamenterade till kulturminnesföreningen. Samlingarna är numera skingrade.
+    <div class="history__personal-text">
+        <span class="history__capital">F</span>ram till 1846 hade Gathenhielmska huset karaktären av ett högreståndsmässigt lantställe. Under senare delen av 1800-talet och en bit in på 1900-talet kom en nyttoinriktning att prägla huset med lägenheter och butiker. Eftersom stt Anna Dahlström var ekonomiskt oberoende, beslöt hon att kosta på sitt hus en grundlig restaurering. Genom Röhsska museets första chef Axel Nilsson fick hon kontakt med den konservatorsutbildade konstnären Johan Nilsson. Tillsammans med honom inleddes år 1916 arbetet med att i görligaste mån återställa huset i ursprungligt skick. År 1920 ingick Anna Dahlström och Johan Nilsson äktenskap. Renoveringen av huset blev deras gemensamma projekt.
+        <br>År 1933 hotades huset av rivning. Johan Nilsson engagerade sig med kraft i arbetet för att bevara huset. Han fick stöd av Sjöfartsmuseets dåvarande chef Olof Traung, Gamla Majpojkars förbund och Majornas kommunalförening. Kulturminnesföreningen Gathenhielm bildades. Även den legendariske chefredaktören Torgny Segerstedt engagerade sig i frågan. Protesterna medförde att planerna på att riva Gathenhielmska huset och jämna de övriga 1700-talsbyggnaderna i dess närhet stoppades.
+        <br>1936 antog stadsfullmäktige en ny stadsplan, som innebar att huset räddades och förutsättningarna för att inrätta ett kulturreservat kom på plats. Redan år 1935 hade kulturminnesföreningen överenskommit med staden om underhåll och nyttjanderätt till husen i det som idag utgör Gathenhielmska reservatet.
+        <br>Johan Nilsson måste vid Anna Dahlströms frånfälle på grund av hennes testamente lämna sin bostad i Gathenhielmska huset. Han bereddes en hedersbostad i fastigheten Härbärget inne i reservatet. Under senare år sysslade han bland annat med att samla material till ett reservatmuseum, som han testamenterade till kulturminnesföreningen. Samlingarna är numera skingrade.
+    </div>
+    <div class="history__renovation-imgs">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
+    </div>
+    <div class="history__renovation-text">
+        <div class="history__renovation-timeline">
+            <div class="history__renovation-year">2020</div>
+            <div class="history__renovation-line"></div>
+        </div>
+        <div class="history__renovation-text-story">Än i dag fortsätter underhållet av fastigheten. Köket får sig en uppfrächning av väggarna med en linoljefärg likt förr. En teknik som dör ut med den gamla skolan. Snart finns det inte många kvar som vet hur man på ett korrekt sätt tar hand om sådana gamla hus. Där av ännu viktigare att dra fram Gathenhilmska huset från skuggan och offentliggöra en unik fastighet som ligger till grund för stigbergstorgets utseénde.</div>
+    </div>
+    <div class="history__renovation-large-img">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Anna-Dahlstrom.png" ?>" alt="Anna Dahlström" loading="lazy">
     </div>
 </main>
 
