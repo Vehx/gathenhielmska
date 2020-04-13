@@ -2,8 +2,11 @@
 
 <main role="main" class="history">
     <div class="history__title-box">
-        <img class="history__title-box-img" src="<?php echo get_template_directory_uri() . "/assets/images/History-Title.png" ?>" alt="Gathenhielmska huset" loading="lazy">
-        Historia</div>
+        <img class="history__title-box-img" src="<?php echo get_template_directory_uri() . "/assets/images/History-Title.png" ?>" alt="Gathenhielmska husets fasad" loading="lazy">
+        <p class="history__title-box-title">
+            Historia
+        </p>
+    </div>
     <div class="history__breadcrumbs">
         <a href="/">
             <span class="breadcrumb-faded">HEM</span>
