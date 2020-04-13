@@ -79,8 +79,8 @@ function custom_post_type_event()
         'label'                 => __('Event', 'text_domain'),
         'description'           => __('CPT for events', 'text_domain'),
         'labels'                => $labels,
-        'supports'              => array('title', 'editor', 'thumbnail', 'revisions', 'custom-fields', 'page-attributes', 'post-formats'),
-        'taxonomies'            => array('tags'),
+        'supports'              => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt'),
+        'taxonomies'            => array(''),
         'hierarchical'          => false,
         'public'                => true,
         'show_ui'               => true,
@@ -99,3 +99,45 @@ function custom_post_type_event()
     register_post_type('post_type_event', $args);
 }
 add_action('init', 'custom_post_type_event', 0);
+
+// Filter function
+// array of filters (field key => field name)
+$GLOBALS['my_query_filters'] = array(
+    'type_of_event'    => 'value',
+);
+
+
+// action
+add_action('pre_get_posts', 'my_pre_get_posts', 10, 1);
+
+function my_pre_get_posts($query)
+{
+
+    // bail early if is in admin
+    if (is_admin()) return;
+
+
+    // bail early if not main query
+    // - allows custom code / plugins to continue working
+    if (!$query->is_main_query()) return;
+
+    // get original meta query
+    $meta_query = $query->get('meta_query');
+
+    if (isset($_GET['value'])) {
+        $type_of_event = explode(',', $_GET['value']);
+
+        // append meta query to the original meta queries
+        $meta_query[] = array(
+            'key'        => 'type_of_event',
+            'value'        => $type_of_event,
+            'compare'    => 'IN',
+        );
+    }
+
+
+    // update meta query
+    $query->set('meta_query', $meta_query);
+
+    return;
+}
