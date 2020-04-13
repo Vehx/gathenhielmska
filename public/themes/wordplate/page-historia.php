@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
 <main role="main" class="history">
-    <div class="history__title-box">Historia</div>
+    <div class="history__title-box">
+        <img class="history__title-box-img" src="<?php echo get_template_directory_uri() . "/assets/images/History-Title.png" ?>" alt="Gathenhielmska huset" loading="lazy">
+        Historia</div>
     <div class="history__breadcrumbs">
         <a href="/">
             <span class="breadcrumb-faded">HEM</span>
@@ -15,7 +17,9 @@
             <span class="breadcrumb-active">HISTORIA</span>
         </a>
     </div>
-    <div class="history__page-info"></div>
+    <div class="history__page-info">
+        Husets historia i korthet.
+    </div>
     <div class="history__intro-text">
         Vid Stigbergstorget ligger det så kallade Gathenhielmska huset, som ofta förknippas med kaparkaptenen Lars Gathenhielm, som för Karl XII:s räkning uppbringade danska skepp under det stora nordiska kriget i början av 1700-talet.
     </div>
