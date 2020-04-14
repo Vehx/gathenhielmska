@@ -29,7 +29,6 @@
       background-color: $title-box-color;
       position: absolute;
     }
-
   }
 
   &__breadcrumbs {
@@ -78,12 +77,18 @@
   }
 
   &__content {
-    padding: 15% 8%;
+    padding: 15% 8% 20% 8%;
     font-family: "CrimsonText-Regular";
     font-size: 18px;
     line-height: 25px;
 
     color: $text-color-dark;
+  }
+
+  &__heading {
+    font-family: "CrimsonText-Bold";
+    font-size: 19px;
+    line-height: 27px;
   }
 
   &__capital {
