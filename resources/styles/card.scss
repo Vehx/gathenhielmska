@@ -9,17 +9,13 @@
     height: 184px;
     width: 375px;
     position: relative;
-    z-index: -2;
-    background-color: $card-color;
-  }
-
-  &__inner-wrapper {
-    height: 100%;
-    width: 100%;
+    z-index: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 16px;
+    background-color: $card-color;
+    text-decoration: none;
   }
 
   &__img {
@@ -31,14 +27,16 @@
   &__label {
     height: 45px;
     width: 144px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: $label-text-color;
     background-color: $label-color;
     font-family: "Mukta-Bold";
     font-size: 16px;
     line-height: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     letter-spacing: 0.04em;
+    text-decoration: none;
   }
 }
