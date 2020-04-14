@@ -22,13 +22,18 @@
         <br>våra underkategorier här nedanför.
     </div>
     <section class="about__content">
-        <div>
-            <div>
-                <img class="about__content-img" src="<?php echo get_template_directory_uri() . "/assets/images/About-Content-Historia.png" ?>" alt="Gathenhielmska husets fasad" loading="lazy">
-                <button></button>
-            </div>
+        <div class="card__wrapper">
+            <a class="card__inner-wrapper" href="/historia">
+                <img class="card__img" src="<?php echo get_template_directory_uri() . "/assets/images/About-History.png" ?>" alt="Gathenhielmska husets fasad" loading="lazy">
+                <div class="card__label">HISTORIA</div>
+            </a>
         </div>
-        <img class="about__content-img" src="<?php echo get_template_directory_uri() . "/assets/images/About-Content-Verksamheten.png" ?>" alt="Tapet i huset" loading="lazy">
+        <div class="card__wrapper">
+            <a class="card__inner-wrapper" href="/verksamhet">
+                <img class="card__img" src="<?php echo get_template_directory_uri() . "/assets/images/About-Operations.png" ?>" alt="Tapet i huset" loading="lazy">
+                <div class="card__label">VERKSAMHETEN</div>
+            </a>
+        </div>
     </section>
     <div class="about__end-text">
         <p>

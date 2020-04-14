@@ -78,12 +78,19 @@
   }
 
   &__content {
-    padding: 15% 8%;
-    font-family: "CrimsonText-Regular";
-    font-size: 18px;
-    line-height: 25px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $intro-background-color;
+    position: relative;
+    z-index: -2;
+    padding: 10% 0;
+    // font-family: "CrimsonText-Regular";
+    // font-size: 18px;
+    // line-height: 25px;
 
-    color: $text-color-dark;
+    // color: $text-color-dark;
   }
 
   &__capital {
