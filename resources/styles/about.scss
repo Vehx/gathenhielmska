@@ -29,7 +29,6 @@
       background-color: $title-box-color;
       position: absolute;
     }
-
   }
 
   &__breadcrumbs {
@@ -89,5 +88,31 @@
   &__capital {
     font-size: 46px;
     line-height: 46px;
+  }
+
+  &__end-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15% 10%;
+    font-family: "CrimsonText-Regular";
+    font-size: 26px;
+    line-height: 29px;
+
+    a {
+      height: 25px;
+      width: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 37px;
+      border: 1px solid $breadcrumb-faded;
+      font-family: "Mukta-Regular";
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.02em;
+      color: $text-color-dark;
+      text-decoration: none;
+    }
   }
 }
