@@ -29,13 +29,13 @@
                         <p>KURSER</p>
                     </a>
                     <a href="#">
-                        <p>KALENDER</p>
+                        <p>EVENEMANGSKALENDER</p>
                     </a>
                     <a href="#">
                         <p>GUIDAD VISNING</p>
                     </a>
                     <a href="#">
-                        <p>EVENEMANG</p>
+                        <p>KOMMANDE EVENEMANG</p>
                     </a>
                 </div>
                 <div class="menu-about">
@@ -47,7 +47,7 @@
                         <p>HISTORIA</p>
                     </a>
                     <a href="#">
-                        <p>GUIDAD VISNING</p>
+                        <p>VERKSAMHETEN</p>
                     </a>
                 </div>
                 <div class="menu-archive">
@@ -71,10 +71,13 @@
                 </div>
                 <div class="menu-contact-expand hidden">
                     <a href="#">
-                        <p>KONTAKTUPPGIFTER</p>
+                        <p>MEDARBETARE</p>
                     </a>
                     <a href="#">
-                        <p>MEDARBETANDE</p>
+                        <p>ARRANGERA EVENEMANG</p>
+                    </a>
+                    <a href="#">
+                        <p>HYR IN ER HOS OSS</p>
                     </a>
 
                 </div>
