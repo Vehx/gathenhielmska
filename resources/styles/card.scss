@@ -4,11 +4,13 @@
   $label-text-color: #ffffff;
   $card-color: #ffffff;
 
-  background-color: $card-color;
 
   &__wrapper {
     height: 184px;
     width: 375px;
+    position: relative;
+    z-index: -2;
+    background-color: $card-color;
   }
 
   &__inner-wrapper {
