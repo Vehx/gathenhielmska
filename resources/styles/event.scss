@@ -1,0 +1,189 @@
+/* Some default for Gathenhielmska */
+img.attachment-medium.size-medium.wp-post-image {
+  width: 100%;
+}
+
+/* Event CSS */
+
+/* Filter events */
+.event-filter {
+  display: flex;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.event-filter-name {
+  background-color: #58616c;
+  line-height: 42px;
+  padding: 0 21px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  font-family: Mukta;
+  color: #fff;
+}
+div.select-selected {
+  color: #585858;
+}
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: #fff;
+}
+
+/* Style the + inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "+";
+  top: 0;
+  right: 20px;
+  width: 0;
+  height: 0;
+  font-size: 24px;
+  font-family: Mukta;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  transform: rotate(45deg);
+  right: 5px;
+  font-size: 24px;
+  font-family: Mukta;
+}
+/* List bottom */
+.select-items div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+/* style the items (options), including the selected item: */
+.select-items div,
+.select-selected {
+  color: #000000;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.event-listing {
+  background: #f5eee7;
+}
+.event {
+  background-color: white;
+  padding: 22px 16px;
+  margin: 40px 0;
+}
+.event-heading {
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 110%;
+  color: black;
+  margin-bottom: 10px;
+}
+.eventlink,
+.eventlink:visited {
+  text-decoration: none;
+  color: black;
+}
+.event-type {
+  color: #ff6915;
+}
+section.event-listing > article > p {
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.event-cta {
+  float: right;
+}
+
+.event-time {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  line-height: 26px;
+}
+.event-ticket {
+  background: #58616c;
+  padding: 6px 0;
+  width: 89px;
+  border: none;
+  margin-right: 8px;
+}
+.event-ticket-link {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+}
+.event-readmore {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background-color: white;
+  border: 1px solid #999999;
+  box-sizing: border-box;
+  padding: 5px 0;
+  width: 89px;
+}
+.event-info-bottom {
+  font-size: 20px;
+  font-family: Crimson Text;
+  font-weight: 600;
+  line-height: 27px;
+}
+.event-info-bottom-p {
+  margin-top: 10px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
