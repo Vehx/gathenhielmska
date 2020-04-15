@@ -107,9 +107,9 @@
 
                 <div class="menu-social-media">
                     <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/twitter.svg" ?>" alt="Twitter icon" loading="lazy"></a>
-                    <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/facebook.svg" ?>" alt="Facebook icon" loading="lazy"></a>
+                    <a href="https://www.facebook.com/pages/category/Landmark---Historical-Place/Gathenhielmska-Huset-103055504510437/"><img src="<?php echo get_template_directory_uri() . "/assets/images/facebook.svg" ?>" alt="Facebook icon" loading="lazy"></a>
                     <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/youtube.svg" ?>" alt="Youtube icon" loading="lazy"></a>
-                    <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/instagram.svg" ?>" alt="Instagram icon" loading="lazy"></a>
+                    <a href="https://www.instagram.com/explore/locations/346999549082157/sweden/gothenburg/gathenhielmska-huset/"><img src="<?php echo get_template_directory_uri() . "/assets/images/instagram.svg" ?>" alt="Instagram icon" loading="lazy"></a>
                 </div>
 
                 <div class="menu-newsletter">
