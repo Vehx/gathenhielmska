@@ -9,7 +9,9 @@
                 - En kulturarena på stigbergstorget.</h3>
             <h5>Att levandegöra vårt kulturarv genom konsten, en grundtanke med verksamheten i Gathenhielmska</h5>
         </div>
-        <p class="index-comming-events">KOMMANDE EVENEMANG</p>
+        <div class="index-comming">
+            <p class="index-comming-events">KOMMANDE EVENEMANG</p>
+        </div>
         <!-- EVENEMANG HÄR -->
         <div class="index-event">
             <p>Till våren blir det en hel del aktiviteter,<br>kom hit och delta!</p>
@@ -48,9 +50,11 @@
             </div>
         </div>
         <div class="index-quote">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/quote.svg" ?>" alt="Quote sign" loading="lazy">
-            <p>Att spela teater i trädgården är <br> en helt fantastisk upplevelse.</p>
-            <p>Anna Stendal <br> från teateruppsättningen <br> - lev ditt liv</p>
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/quoteimage.png" ?>" alt="Quote image" loading="lazy">
+            <div class="index-quote-text">
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/quote.svg" ?>" alt="Quote sign" loading="lazy">
+                <p>Vi sätter platsen, artisten och <br>besökarna i centrum för <br>Stigbergstorgets framtida <br>utveckling.</p>
+            </div>
         </div>
     </section>
 </main>
