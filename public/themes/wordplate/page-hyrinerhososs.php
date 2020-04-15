@@ -25,18 +25,27 @@
         <br>det plats för fler!
     </div>
     <div class="rent__intro-text">
-        <div class="rent__text">
-            <span class="rent__capital"></span>
-            Möjlighet finns generellt att tillfälligt hyra in sig för att arbeta i huset, under en dag, lite då och då eller under kortare perioder. Maila eller ring vid intresse!
+        <span class="rent__capital"></span>
+        <p>
+            Möjlighet finns generellt att
+            <br>tillfälligt hyra in sig för att
+            <br>arbeta i huset, under en dag,
+            <br>lite då och då eller under
+            <br>kortare perioder. Maila eller
+            <br>ring vid intresse!
+        </p>
+        <div>
             <img src="<?php echo get_template_directory_uri() . "/assets/images/mail.svg" ?>" alt="Mail ikon" loading="lazy">
             <p>gathenhielmskabokning@gmail.com</p>
+        </div>
+        <div>
             <img src="<?php echo get_template_directory_uri() . "/assets/images/phone.svg" ?>" alt="Telefon ikon" loading="lazy">
             <p>0760-98 38 32</p>
         </div>
     </div>
     <section class="rent__content">
-        <div>
-            <p>IN-HOUSE AKTÖRER</p>
+        <p>IN-HOUSE AKTÖRER</p>
+        <div class="rent__text">
 
             <div>
                 Patricio Galvez  Gyttja Interculture  producent Castingverket  Filmcasting Reostat Media  Podcast Folkstaden  Arkitektur Teater Tofta  Teater
@@ -45,11 +54,11 @@
                 Emma Ekdala/ Emma Vendelek  Samtalsterapi Mattias Gunnarsson  Design/arkitektur/konst Doma / doma / DOMA / 土間 Design John Dohlsten  Musik Hanna Norrna  Textil/vävstol
             </div>
         </div>
-        <div>
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/Rent-Large-Img.png" ?>" alt="Trappa i huset" loading="lazy">
-            <p>Har du frågor? Tveka inte utan <br>hör av dig, antingen via <span>telefon</span><br>eller <span>mail.</span></p>
-        </div>
     </section>
+    <div class="rent__end-text">
+        <img src="<?php echo get_template_directory_uri() . "/assets/images/Rent-Large-Img.png" ?>" alt="Trappa i huset" loading="lazy">
+        <p>Har du frågor? Tveka inte utan <br>hör av dig, antingen via <span>telefon</span><br>eller <span>mail.</span></p>
+    </div>
 </main>
 
 <?php get_footer(); ?>

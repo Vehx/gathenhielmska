@@ -65,11 +65,32 @@
   &__intro-text {
     width: 100%;
     font-family: "CrimsonText-Regular";
-    font-size: 20px;
+    font-size: 26px;
+    line-height: 28px;
     letter-spacing: 0.02em;
-    padding: 10% 0;
+    padding: 20% 8%;
     color: $text-color-dark;
     background-color: $intro-background-color;
+
+    p:nth-child(1) {
+      margin-bottom: 10px;
+    }
+
+    div {
+      font-family: "Mukta-Regular";
+      font-size: 16px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.04em;
+      text-decoration: underline;
+      margin-top: 26px;
+
+      p {
+        margin-left: 10px;
+      }
+    }
   }
 
   &__text {
@@ -94,5 +115,31 @@
   &__capital {
     font-size: 46px;
     line-height: 46px;
+  }
+
+  &__end-text {
+    height: 562px;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "CrimsonText-Bold";
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: $text-color-light;
+
+    p {
+      margin-top: 87%;
+    }
+
+    span {
+      text-decoration: underline;
+    }
+
+    img {
+      position: absolute;
+      z-index: -1;
+    }
   }
 }
