@@ -44,14 +44,52 @@
         </div>
     </div>
     <section class="rent__content">
-        <p>IN-HOUSE AKTÖRER</p>
+        <p class="rent__content-title">IN-HOUSE AKTÖRER</p>
         <div class="rent__text">
 
-            <div>
-                Patricio Galvez  Gyttja Interculture  producent Castingverket  Filmcasting Reostat Media  Podcast Folkstaden  Arkitektur Teater Tofta  Teater
+            <div class="rent__text-col">
+                <div>
+                    <span class="rent__text-bold">PATRICIO GALVEZ</span>
+                    <p>Gyttja Interculture<br>producent</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">CASTINGVERKET</span>
+                    <p>Filmcasting</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">REOSTAT MEDIA</span>
+                    <p>Podcast</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">FOLKSTADEN</span>
+                    <p>Arkitektur</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">TEATER TOFTA</span>
+                    <p>Teater</p>
+                </div>
             </div>
-            <div>
-                Emma Ekdala/ Emma Vendelek  Samtalsterapi Mattias Gunnarsson  Design/arkitektur/konst Doma / doma / DOMA / 土間 Design John Dohlsten  Musik Hanna Norrna  Textil/vävstol
+            <div class="rent__text-col">
+                <div>
+                    <span class="rent__text-bold">EMMA EKDALA/<br>EMMA VENDELEK</span>
+                    <p>Samtalsterapi</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">MATTIAS GUNNARSSON</span>
+                    <p>Design/arkitektur/konst</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">DOMA / DOMA / DOMA<br>/ 土間</span>
+                    <p>Design</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">JOHN DOHLSTEN</span>
+                    <p>Musik</p>
+                </div>
+                <div>
+                    <span class="rent__text-bold">HANNA NORRNA</span>
+                    <p>Textil/vävstol</p>
+                </div>
             </div>
         </div>
     </section>

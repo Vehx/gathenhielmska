@@ -1,7 +1,7 @@
 .rent {
   $breadcrumb-faded: #999999;
   $breadcrumb-active: #ff6915;
-  $border-color: rgba(0, 0, 0, 0.205);
+  $border-color: hsla(0, 0%, 0%, 0.205);
   $text-color-light: #ffffff;
   $text-color-dark: #000000;
   $title-box-color: #54384c;
@@ -93,17 +93,57 @@
     }
   }
 
-  &__text {
-    padding: 10% 8% 5% 8%;
-  }
-
   &__content {
-    padding: 15% 8% 20% 8%;
+    padding: 12% 5% 15% 5%;
     font-family: "CrimsonText-Regular";
     font-size: 18px;
     line-height: 25px;
 
     color: $text-color-dark;
+
+    &-title {
+      font-family: "Mukta-Bold";
+      font-size: 16px;
+      line-height: 27px;
+      letter-spacing: 0.04em;
+      margin-bottom: 8px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    border-top: 1px solid #bfbfbf;
+    font-family: "CrimsonText-Regular";
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 30px;
+
+    &-col:nth-child(1) {
+      height: 255px;
+      width: 118px;
+      margin-right: 50px;
+    }
+
+    &-col:nth-child(2) {
+      height: 272px;
+      width: 157px;
+    }
+
+    &-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      div {
+        margin-top: 10px;
+      }
+    }
+
+    &-bold {
+      font-family: "Mukta-Bold";
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.04em;
+    }
   }
 
   &__heading {
