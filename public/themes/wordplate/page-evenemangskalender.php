@@ -7,10 +7,31 @@
 
             <?php the_content(); ?>
     </section>
-    <hr>
-    <h3>Filtrera</h3>
-    <hr>
+
     <section class="event-listing">
+        <div class="event-filter">
+            <div class="event-filter-name">Filtrera</div>
+            <div class="custom-select" style="width:100%;">
+                <select>
+                    <option value="0">Välj genre</option>
+                    <?php
+                    // get the categories to filter and fix the order
+                    $posts = get_posts(array(
+                        'post_type'            => 'post_type_event',
+                        'posts_per_page'    => -1,
+                        'meta_key'            => 'type_of_event',
+                        'orderby'            => 'meta_value',
+                        'order'                => 'ASC'
+                    ));
+                    if ($posts) : ?>
+                        <?php foreach ($posts as $post) : setup_postdata($post) ?>
+                            <option value="<?php the_field('type_of_event'); ?>"><?php the_field('type_of_event'); ?></option>
+                        <?php endforeach; ?>
+                        <?php wp_reset_postdata(); ?>
+                    <?php endif; ?>
+                </select>
+            </div>
+        </div>
     <?php endwhile; ?>
 
     <?php
@@ -33,14 +54,14 @@
         ?>
             <!-- The event -->
             <article class="event">
-                <a class="eventlink" href="<?php the_permalink(); ?>">
-                    <h2 class="event-heading"><span class="event-type"><?php the_field('type_of_event'); ?></span> <?php the_title(); ?></h2>
-                    <?= the_post_thumbnail('medium'); ?>
-                    <?php the_excerpt(); ?>
-                    <span class="event-time"><?php the_field('event-time'); ?></span>
+                <h2 class="event-heading"><span class="event-type"><?php the_field('type_of_event'); ?></span> <?php the_title(); ?></h2>
+                <?= the_post_thumbnail('medium'); ?>
+                <?php the_excerpt(); ?>
+                <span class="event-time"><?php the_field('event-time'); ?></span>
+                <div class="event-cta">
                     <button class="event-ticket"><a class="event-ticket-link" href="<?= get_field('event-ticket-link'); ?>">Biljetter</a></button>
-                    <button class="event-readmore">Läs mer</button>
-                </a>
+                    <button class="event-readmore"><a class="eventlink" href="<?php the_permalink(); ?>">Läs mer</a></button>
+                </div>
             </article>
 
         <?php endforeach; ?>
