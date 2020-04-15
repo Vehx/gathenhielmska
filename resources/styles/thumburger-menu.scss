@@ -14,6 +14,7 @@
     left: 75vw;
     transition: 0.5s ease-in-out;
     color: #FFFFFF;
+    z-index: 10;
 }
 
 .thumburger-cancel {
@@ -43,6 +44,7 @@
     position: fixed;
     overflow-y: scroll;
     top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 10;
 }
 
 .menu-links {
