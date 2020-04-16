@@ -34,7 +34,7 @@ get_header(); ?>
              *
              */
             $terms = get_terms(array(
-                'taxonomy'   => 'events', // Swap in your custom taxonomy name
+                'taxonomy'   => 'events', // custom taxonomy name
                 'hide_empty' => true,
             ));
 
@@ -52,7 +52,7 @@ get_header(); ?>
     </div> <!-- Start the Loop. -->
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <article class="event">
-                <h2 class="event-heading"><span class="event-type"><?php get_category('taxonomy') ?></span> <?php the_title(); ?></h2>
+                <h2 class="event-heading"><span class="event-type"><?php echo $term->name;  ?></span> <?php the_title(); ?></h2>
                 <?php the_post_thumbnail('medium'); ?>
                 <?php the_excerpt(); ?>
                 <span class="event-time"><?php the_field('event-time'); ?></span>
