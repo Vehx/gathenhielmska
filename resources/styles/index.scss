@@ -135,16 +135,19 @@
 }
 
 .index-quote {
-  margin-bottom: -5px;
+  background-image: url(/themes/wordplate/assets/images/quoteimage.png);
+  width: auto;
+  min-height: 562px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .index-quote-text {
   font-family: "CrimsonText-Regular";
   font-size: 26px;
   color: white;
-  position: absolute;
-  top: 315%;
   left: 10%;
+  margin: 20px 30px;
 }
 
 // Desktop breakpoint //

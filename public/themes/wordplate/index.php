@@ -125,7 +125,6 @@
             </a>
         </div>
         <div class="index-quote">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/quoteimage.png" ?>" alt="Quote image" loading="lazy">
             <div class="index-quote-text">
                 <img src="<?php echo get_template_directory_uri() . "/assets/images/quote.svg" ?>" alt="Quote sign" loading="lazy">
                 <p>Vi sätter platsen, artisten och <br>besökarna i centrum för <br>Stigbergstorgets framtida <br>utveckling.</p>
