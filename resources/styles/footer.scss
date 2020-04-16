@@ -201,8 +201,6 @@
   .footer {
     $border-color: #bfbfbf;
 
-    // width: 1440px;
-
     &__top-wrapper {
       height: 171px;
     }
@@ -233,15 +231,12 @@
     }
 
     &__center-wrapper {
-      // display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       height: 205px;
-      // width: 100%;
       padding-left: 0;
       padding-right: 0;
-      // border-bottom: 1px solid $border-color;
     }
 
     &__newsletter {
@@ -294,11 +289,9 @@
       margin-top: 0px;
       padding-right: 4%;
       padding-top: 40px;
-      // padding: 40px 25px;
     }
 
     &__directions {
-      // width: 50%;
       &-find {
         display: none;
       }
@@ -314,15 +307,10 @@
 
     &__bottom-wrapper {
       display: block;
-      // justify-content: center;
-      // align-items: center;
       height: 100%;
       width: auto;
       padding-top: 40px;
       padding-left: 25px;
-      // padding: 0 25px;
-
-      // width: 100%;
 
       p:nth-child(1) {
         margin-bottom: 35px;
