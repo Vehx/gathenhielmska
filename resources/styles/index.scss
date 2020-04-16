@@ -1,3 +1,22 @@
+@media only screen and (max-width: 992px) {
+
+.index-img-desktop {
+    display: none;
+}
+
+.index-video-desktop {
+    display: none;
+}
+
+.index-archive-desktop {
+    display: none;
+}
+
+.index-quote-desktop {
+    display: none;
+}
+}
+
 .index-hero {
     padding-bottom: 2rem;
     background-color: #FFFFFF;
@@ -121,4 +140,136 @@
     position: absolute;
     top: 325%;
     left: 10%;
+}
+
+// Desktop breakpoint // 
+
+@media only screen and (min-width: 992px) {
+.index-img-mobile {
+    display: none;
+}
+
+.index-hero h3, .index-hero h5 {
+    color: white;
+}
+
+.index-hero h3 {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.index-hero h5 {
+    font-size: 24px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+
+main {
+    width: 1440px;
+}
+
+.index-comming {
+    background-color: white;
+    box-shadow: none;
+}
+
+.index-comming-events {
+    font-size: 32px;
+    font-family: "Mukta-Regular";
+    text-align: center;
+}
+.index-event {
+    display: none;
+}
+
+.index-video {
+    box-shadow: none;
+}
+
+.index-video-desktop h6 {
+    font-family: "Mukta-Regular";
+    font-size: 40px;
+}
+
+.index-video-desktop p {
+    font-family: "CrimsonText-Regular";
+    font-size: 20px;
+    padding: 0px;
+}
+
+.index-video-desktop h5 {
+    font-family: "Mukta-Regular";
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 8rem;
+}
+
+.video-mobile {
+    display: none;
+}
+
+.index-video-desktop {
+    display: flex;
+    padding: 10rem 0 14rem 8rem;
+}
+
+.index-video-desktop-img {
+    padding-right: 1rem;
+}
+
+.index-archive {
+    display: none;
+}
+
+.index-archive-desktop {
+    background-color: #F5EEE7;
+    padding: 2rem 0;
+}
+
+.index-archive-desktop h6 {
+    font-family: "CrimsonText-Regular";
+    font-size: 48px;
+    padding: 3rem 0 5rem 15rem;
+    font-weight: normal;
+}
+
+.index-archive-desktop a {
+    font-family: "Mukta-Regular";
+    font-size: 24px;
+    text-decoration: underline;
+    color: black;
+}
+
+.index-archive-desktop p {
+    padding: 0 0 3rem 60rem;
+}
+
+.index-quote {
+    display: none;
+}
+
+.index-quote-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.index-quote-desktop img {
+    padding: 10rem 0 0 15rem;
+}
+.index-quote-desktop h6 {
+    padding: 0 0 5rem 20rem;
+    font-family: "CrimsonText-Regular";
+    font-size: 48px;
+}
+
+.index-quote-desktop p {
+    padding: 0 0 10rem 45rem;
+    font-family: "CrimsonText-Regular";
+    font-size: 24px;
+}
 }

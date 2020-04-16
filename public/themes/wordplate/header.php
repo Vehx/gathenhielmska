@@ -16,6 +16,52 @@
                 <p>GATHENHIELMSKA</p>
             </div>
         </div>
+        <div class="header-container-desktop">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
+            <div class="header-container-desktop-evenemang">
+                <a href="#">
+                    <p>EVENEMANG</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-archive">
+                <a href="#">
+                    <p>ARKIV</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-about-us">
+                <a href="#">
+                    <p>OM OSS</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-login">
+                <a href="#">
+                    <p>LOGGA IN</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-lang">
+                <a href="#">
+                    <p>SV</p>
+                </a>
+                <a href="#">
+                    <p>EN</p>
+                </a>
+            </div>
+            <div class="header-container-desktop-search">
+                <p>SÖK</p>
+            </div>
+        </div>
 
 
         <div class="open-menu hidden">

@@ -1,5 +1,12 @@
 /* Header */
 
+@media only screen and (max-width: 992px) {
+    .header-container-desktop
+     {
+        display: none;
+    }
+}
+
 .header-container {
     width: 100vw;
     height: 87px;
@@ -36,4 +43,36 @@
 
 .header-lang a:active, .header-lang a:hover {
     font-family: "Mukta-SemiBold";
+}
+
+@media only screen and (min-width: 992px) {
+    .header-container
+     {
+        display: none;
+    }
+
+    .header-container-desktop {
+        padding: 1rem 0;
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-container-desktop-lang {
+        display: flex;
+    }
+
+    .header-container-desktop-evenemang, .header-container-dekstop-archive, .header-container-desktop-about-us, .header-container-desktop-login {
+        display: flex;
+    }
+
+    .header-container-desktop-lang a {
+        padding-left: 0.5rem;
+    }
+
+    .header-container-desktop a {
+        text-decoration: none;
+        color: black;
+    }
 }
