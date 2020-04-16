@@ -42,102 +42,96 @@ add_filter('jpeg_quality', function () {
     return 100;
 }, 10, 2);
 
-// CTP Events
+// Create Taxonomy for events
+
+// hook into the init action and call create_event_taxonomies when it fires
+add_action('init', 'create_event_taxonomies', 0);
+
+// create taxonomy event for the post type "event"
+function create_event_taxonomies()
+{
+    // Add new taxonomy, make it hierarchical (like categories)
+    $labels = array(
+        'name'              => _x('Events', 'taxonomy general name', 'textdomain'),
+        'singular_name'     => _x('Event', 'taxonomy singular name', 'textdomain'),
+        'search_items'      => __('Search Events', 'textdomain'),
+        'all_items'         => __('All Events', 'textdomain'),
+        'parent_item'       => __('Parent Events', 'textdomain'),
+        'parent_item_colon' => __('Parent Event:', 'textdomain'),
+        'edit_item'         => __('Edit Event', 'textdomain'),
+        'update_item'       => __('Update Event', 'textdomain'),
+        'add_new_item'      => __('Add New Event', 'textdomain'),
+        'new_item_name'     => __('New Event Name', 'textdomain'),
+        'menu_name'         => __('Genre', 'textdomain'),
+    );
+
+    $args = array(
+        'hierarchical'      => false,
+        'labels'            => $labels,
+        'show_ui'           => false,
+        'show_admin_column' => false,
+        'query_var'         => true,
+        'rewrite'           => array('slug' => 'events'),
+    );
+
+    register_taxonomy('events', array('event'), $args);
+}
+
+
+// CPT Events
 function custom_post_type_event()
 {
 
     $labels = array(
-        'name'                  => _x('Events', 'Post Type General Name', 'text_domain'),
-        'singular_name'         => _x('Event', 'Post Type Singular Name', 'text_domain'),
-        'menu_name'             => __('Events', 'text_domain'),
-        'name_admin_bar'        => __('Events', 'text_domain'),
-        'archives'              => __('Event Archives', 'text_domain'),
-        'attributes'            => __('Event Attributes', 'text_domain'),
-        'parent_item_colon'     => __('Parent Event:', 'text_domain'),
-        'all_items'             => __('All Events', 'text_domain'),
-        'add_new_item'          => __('Add New Event', 'text_domain'),
-        'add_new'               => __('Add New', 'text_domain'),
-        'new_item'              => __('New Event', 'text_domain'),
-        'edit_item'             => __('Edit Event', 'text_domain'),
-        'update_item'           => __('Update Event', 'text_domain'),
-        'view_item'             => __('View Event', 'text_domain'),
-        'view_items'            => __('View Events', 'text_domain'),
-        'search_items'          => __('Search Event', 'text_domain'),
-        'not_found'             => __('Not found', 'text_domain'),
-        'not_found_in_trash'    => __('Not found in Trash', 'text_domain'),
-        'featured_image'        => __('Featured Image', 'text_domain'),
-        'set_featured_image'    => __('Set featured image', 'text_domain'),
+        'name' => _x('Events', 'Post Type General Name', 'text_domain'),
+        'singular_name' => _x('Event', 'Post Type Singular Name', 'text_domain'),
+        'menu_name' => __('Events', 'text_domain'),
+        'name_admin_bar' => __('Events', 'text_domain'),
+        'archives' => __('Event Archives', 'text_domain'),
+        'attributes' => __('Event Attributes', 'text_domain'),
+        'parent_item_colon' => __('Parent Event:', 'text_domain'),
+        'all_items' => __('All Events', 'text_domain'),
+        'add_new_item' => __('Add New Event', 'text_domain'),
+        'add_new' => __('Add New', 'text_domain'),
+        'new_item' => __('New Event', 'text_domain'),
+        'edit_item' => __('Edit Event', 'text_domain'),
+        'update_item' => __('Update Event', 'text_domain'),
+        'view_item' => __('View Event', 'text_domain'),
+        'view_items' => __('View Events', 'text_domain'),
+        'search_items' => __('Search Event', 'text_domain'),
+        'not_found' => __('Not found', 'text_domain'),
+        'not_found_in_trash' => __('Not found in Trash', 'text_domain'),
+        'featured_image' => __('Featured Image', 'text_domain'),
+        'set_featured_image' => __('Set featured image', 'text_domain'),
         'remove_featured_image' => __('Remove featured image', 'text_domain'),
-        'use_featured_image'    => __('Use as featured image', 'text_domain'),
-        'insert_into_item'      => __('Insert into event', 'text_domain'),
+        'use_featured_image' => __('Use as featured image', 'text_domain'),
+        'insert_into_item' => __('Insert into event', 'text_domain'),
         'uploaded_to_this_item' => __('Uploaded to this event', 'text_domain'),
-        'items_list'            => __('Events list', 'text_domain'),
+        'items_list' => __('Events list', 'text_domain'),
         'items_list_navigation' => __('Events list navigation', 'text_domain'),
-        'filter_items_list'     => __('Filter events list', 'text_domain'),
+        'filter_items_list' => __('Filter events list', 'text_domain'),
     );
     $args = array(
-        'label'                 => __('Event', 'text_domain'),
-        'description'           => __('CPT for events', 'text_domain'),
-        'labels'                => $labels,
-        'supports'              => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt'),
-        'taxonomies'            => array(''),
-        'hierarchical'          => false,
-        'public'                => true,
-        'show_ui'               => true,
-        'show_in_menu'          => true,
-        'menu_position'         => 5,
-        'menu_icon'             => 'dashicons-calendar-alt',
-        'show_in_admin_bar'     => true,
-        'show_in_nav_menus'     => true,
-        'can_export'            => true,
-        'has_archive'           => true,
-        'exclude_from_search'   => false,
-        'publicly_queryable'    => true,
-        'capability_type'       => 'page',
-        'show_in_rest'          => true,
+        'label' => __('Event', 'text_domain'),
+        'description' => __('CPT for events', 'text_domain'),
+        'labels' => $labels,
+        'supports' => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt'),
+        'taxonomies' => array('events'),
+        'hierarchical' => true,
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'menu_position' => 5,
+        'menu_icon' => 'dashicons-calendar-alt',
+        'show_in_admin_bar' => true,
+        'show_in_nav_menus' => true,
+        'can_export' => true,
+        'has_archive' => true,
+        'exclude_from_search' => false,
+        'publicly_queryable' => true,
+        'capability_type' => 'page',
+        'show_in_rest' => false,
     );
     register_post_type('post_type_event', $args);
 }
 add_action('init', 'custom_post_type_event', 0);
-
-// Filter function
-// array of filters (field key => field name)
-$GLOBALS['my_query_filters'] = array(
-    'type_of_event'    => 'value',
-);
-
-
-// action
-add_action('pre_get_posts', 'my_pre_get_posts', 10, 1);
-
-function my_pre_get_posts($query)
-{
-
-    // bail early if is in admin
-    if (is_admin()) return;
-
-
-    // bail early if not main query
-    // - allows custom code / plugins to continue working
-    if (!$query->is_main_query()) return;
-
-    // get original meta query
-    $meta_query = $query->get('meta_query');
-
-    if (isset($_GET['value'])) {
-        $type_of_event = explode(',', $_GET['value']);
-
-        // append meta query to the original meta queries
-        $meta_query[] = array(
-            'key'        => 'type_of_event',
-            'value'        => $type_of_event,
-            'compare'    => 'IN',
-        );
-    }
-
-
-    // update meta query
-    $query->set('meta_query', $meta_query);
-
-    return;
-}
