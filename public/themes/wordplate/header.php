@@ -71,13 +71,13 @@
                     <a href="#" class="to-event"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-event-expand hidden">
-                    <a href="#">
+                    <a href="/kurser">
                         <p>KURSER</p>
                     </a>
                     <a href="#">
                         <p>EVENEMANGSKALENDER</p>
                     </a>
-                    <a href="#">
+                    <a href="/guidad-visning">
                         <p>GUIDAD VISNING</p>
                     </a>
                     <a href="#">

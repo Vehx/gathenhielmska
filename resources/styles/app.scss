@@ -8,13 +8,15 @@
 @import 'about.scss';
 @import 'history.scss';
 @import 'operations.scss';
+@import 'event.scss';
 @import 'coworker.scss';
-@import 'arrangeevent.scss';
+@import 'contact.scss';
+@import 'rent.scss';
 
 /* WordPlate */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
