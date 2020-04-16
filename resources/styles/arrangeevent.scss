@@ -1,0 +1,154 @@
+.arrange-hero p {
+    font-family: "Mukta-Bold";
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    line-height: 53px;
+    color: white;
+    position: absolute;
+    left: 4%;
+    top: 30%;
+}
+
+.arrange-hero img {
+    margin-bottom: -4px;
+}
+
+
+.breadcrumbs {
+    width: 100%;
+    margin-top: 32px;
+    padding-left: 1rem;
+    margin-bottom: 3px;
+    font-family: "Mukta-SemiBold";
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+
+    a {
+      text-decoration: none;
+    }
+
+    p {
+    font-family: "CrimsonText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 4rem;
+    }
+  }
+
+  .breadcrumb-faded {
+    color: #999999;
+
+  }
+
+  .breadcrumb-active {
+    color: #FF6915;
+  }
+
+  .arrange-group-1, .arrange-group-2, .arrange-group-3 {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .arrange-rent {
+      background-color: #C8C2C6;
+  }
+
+  .arrange-rent h5 {
+      padding: 2rem 0 0.5rem 1rem;
+      font-family: "Mukta-Bold";
+      font-size: 16px;
+  }
+
+  .arrange-rent h6 {
+      font-family: "Mukta-Bold";
+      font-size: 14px;
+  }
+
+  .arrange-rent p {
+      font-family: "CrimsonText-Regular";
+      font-size: 18px;
+  }
+
+  .arrange-rent h4 {
+      font-family: "Mukta-Bold";
+      font-size: 14px;
+  }
+
+  .arrange-rent hr {
+      width: 344px;
+      margin-left: 16px;
+      border: 1px solid #999999;
+  }
+
+  .arrange-versaillesrummet {
+      padding-bottom: 3rem;
+  }
+
+  .arrange-experiment h6 {
+    font-family: "CrimsonText-Semibold";
+    font-size: 18px;
+    padding: 4rem 0 2rem 1rem;
+  }
+
+  .arrange-experiment p {
+      font-family: "CrimsonText-Regular";
+      font-size: 18px;
+      padding: 0 0 2rem 1rem;
+  }
+
+  .arrange-experiment p:last-child {
+      padding-bottom: 4rem;
+  }
+
+  .arrange-interest p {
+    font-family: "CrimsonText-Regular";
+    font-size: 18px;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .arrange-interest a {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .arrange-interest a:last-child {
+      font-family: "Mukta-Regular";
+      font-size: 16px;
+  }
+
+  .arrange-interest h6 {
+      font-family: "CrimsonText-SemiBold";
+      font-size: 18px;
+      padding-left: 1rem;
+  }
+  
+  .arrange-interest-contact img {
+      padding-right: 0.5rem;
+  }
+
+  .arrange-interest-contact {
+      display: flex;
+      padding: 3rem 0 3rem 1rem;
+  }
+
+  .arrange-questions {
+      font-family: "CrimsonText-SemiBold";
+      font-size: 20px;
+      color: white;
+      margin-bottom: -6px;
+  }
+
+  .arrange-questions a {
+      text-decoration: underline;
+      color: white;
+  }
+
+  .arrange-questions p {
+    position: absolute;
+    left: 13%;
+    top: 387%;
+  }

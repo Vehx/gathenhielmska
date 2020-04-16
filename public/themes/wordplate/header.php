@@ -16,6 +16,52 @@
                 <p>GATHENHIELMSKA</p>
             </div>
         </div>
+        <div class="header-container-desktop">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
+            <div class="header-container-desktop-evenemang">
+                <a href="#">
+                    <p>EVENEMANG</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-archive">
+                <a href="#">
+                    <p>ARKIV</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-about-us">
+                <a href="#">
+                    <p>OM OSS</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-login">
+                <a href="#">
+                    <p>LOGGA IN</p>
+                </a>
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="header-container-desktop-lang">
+                <a href="#">
+                    <p>SV</p>
+                </a>
+                <a href="#">
+                    <p>EN</p>
+                </a>
+            </div>
+            <div class="header-container-desktop-search">
+                <p>SÖK</p>
+            </div>
+        </div>
 
 
         <div class="open-menu hidden">
@@ -25,17 +71,17 @@
                     <a href="#" class="to-event"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-event-expand hidden">
-                    <a href="#">
+                    <a href="/kurser">
                         <p>KURSER</p>
                     </a>
                     <a href="#">
-                        <p>KALENDER</p>
+                        <p>EVENEMANGSKALENDER</p>
                     </a>
-                    <a href="#">
+                    <a href="/guidad-visning">
                         <p>GUIDAD VISNING</p>
                     </a>
                     <a href="#">
-                        <p>EVENEMANG</p>
+                        <p>KOMMANDE EVENEMANG</p>
                     </a>
                 </div>
                 <div class="menu-about">
@@ -47,7 +93,7 @@
                         <p>HISTORIA</p>
                     </a>
                     <a href="#">
-                        <p>GUIDAD VISNING</p>
+                        <p>VERKSAMHETEN</p>
                     </a>
                 </div>
                 <div class="menu-archive">
@@ -71,10 +117,13 @@
                 </div>
                 <div class="menu-contact-expand hidden">
                     <a href="#">
-                        <p>KONTAKTUPPGIFTER</p>
+                        <p>MEDARBETARE</p>
                     </a>
                     <a href="#">
-                        <p>MEDARBETANDE</p>
+                        <p>ARRANGERA EVENEMANG</p>
+                    </a>
+                    <a href="#">
+                        <p>HYR IN ER HOS OSS</p>
                     </a>
 
                 </div>
@@ -104,9 +153,9 @@
 
                 <div class="menu-social-media">
                     <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/twitter.svg" ?>" alt="Twitter icon" loading="lazy"></a>
-                    <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/facebook.svg" ?>" alt="Facebook icon" loading="lazy"></a>
+                    <a href="https://www.facebook.com/pages/category/Landmark---Historical-Place/Gathenhielmska-Huset-103055504510437/"><img src="<?php echo get_template_directory_uri() . "/assets/images/facebook.svg" ?>" alt="Facebook icon" loading="lazy"></a>
                     <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/youtube.svg" ?>" alt="Youtube icon" loading="lazy"></a>
-                    <a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/images/instagram.svg" ?>" alt="Instagram icon" loading="lazy"></a>
+                    <a href="https://www.instagram.com/explore/locations/346999549082157/sweden/gothenburg/gathenhielmska-huset/"><img src="<?php echo get_template_directory_uri() . "/assets/images/instagram.svg" ?>" alt="Instagram icon" loading="lazy"></a>
                 </div>
 
                 <div class="menu-newsletter">

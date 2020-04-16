@@ -1,7 +1,12 @@
 <?php get_header(); ?>
 
 <main role="main" class="operations">
-    <div class="operations__title-box">Verksamheter</div>
+    <div class="operations__title-box">
+        <img class="operations__title-box-img" src="<?php echo get_template_directory_uri() . "/assets/images/Operations-Title.png" ?>" alt="Tapet i huset" loading="lazy">
+        <p class="operations__title-box-title">
+            Verksamheten
+        </p>
+    </div>
     <div class="operations__breadcrumbs">
         <a href="/">
             <span class="breadcrumb-faded">HEM</span>
@@ -12,10 +17,12 @@
         </a>
         >
         <a href="/verksamhet">
-            <span class="breadcrumb-active">VERKSAMHETER</span>
+            <span class="breadcrumb-active">VERKSAMHETEN</span>
         </a>
     </div>
-    <div class="operations__page-info"></div>
+    <div class="operations__page-info">
+        Här nedan hittar ni en kort text kring våra <br>tankar med verksamheterna här i huset.
+    </div>
     <div class="operations__intro-text">
         <img src="<?php echo get_template_directory_uri() . "/assets/images/Staircase.png" ?>" alt="Trappa i Gathenhielmska huset" loading="lazy">
         <div class="operations__text">
@@ -23,7 +30,7 @@
         </div>
     </div>
     <section class="operations__content">
-        <p>
+        <p class="operations__heading">
             Arbetsplatser och intern samverkan
         </p>
         <p>
@@ -31,15 +38,14 @@
         </p>
         <br>
         <p>
-            Vi är måna om att skapa ett hållbart system för samverkan mellan olika aktörer. Vi tror att mångfalden gynnar både de som arbetar i huset och verksamheten i sin helhet. Olikheterna stärker en gemenskap där alla deltar utifrån sina förutsättningar. Varje aktör är en tillgång och en viktig del för helheten. Vi erbjuder en inkluderande och inspirerande miljö där alla är inbjudna att skapa eller ta del av skapandet och öppnar en plats utan begränsningar för mötet mellan historia, människa och konst.
+            <span class="operations__capital">V</span>i är måna om att skapa ett hållbart system för samverkan mellan olika aktörer. Vi tror att mångfalden gynnar både de som arbetar i huset och verksamheten i sin helhet. Olikheterna stärker en gemenskap där alla deltar utifrån sina förutsättningar. Varje aktör är en tillgång och en viktig del för helheten. Vi erbjuder en inkluderande och inspirerande miljö där alla är inbjudna att skapa eller ta del av skapandet och öppnar en plats utan begränsningar för mötet mellan historia, människa och konst.
         </p>
         <br>
         <p>
             Vi ser livet i och kring huset som ekosystem, en god grund för en samverkansmodell där vi tillsammans skapar en näringsrik mylla för samskapande, genom att verka för en hållbar och kollektiv gemenskap. Vi tror att en hållbar kollektiv social struktur, där vi stödjer och lär av varandra, är det bästa sättet att skapa ett sammanhang som kan förvalta Gathenhielmska husets värde.
         </p>
     </section>
-    <div class="operations__end-text">
-    </div>
+    <img src="<?php echo get_template_directory_uri() . "/assets/images/Operations-Panel.png" ?>" alt="Panel i Gathenhielmska huset" loading="lazy">
 </main>
 
 <?php get_footer(); ?>

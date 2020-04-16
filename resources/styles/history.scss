@@ -14,13 +14,23 @@
     align-items: center;
     height: 295px;
     width: 100%;
-    background: $title-box-color;
     box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1), 0px 0px 3px rgba(0, 0, 0, 0.1);
-    font-family: "Mukta-Regular";
-    font-size: 32px;
-    letter-spacing: 0.02em;
 
-    color: $text-color-light;
+    &-title {
+      font-family: "Mukta-Regular";
+      font-size: 32px;
+      letter-spacing: 0.02em;
+      color: $text-color-light;
+    }
+
+    &-img {
+      height: 295px;
+      width: 375px;
+      z-index: -1;
+      background-color: $title-box-color;
+      position: absolute;
+    }
+
   }
 
   &__breadcrumbs {
@@ -49,10 +59,12 @@
   &__page-info {
     height: 142px;
     width: 100%;
+    font-family: "CrimsonText-Regular";
+    font-size: 18px;
+    margin-left: 16px;
   }
 
   &__intro-text {
-    height: 261px;
     width: 100%;
     font-family: "CrimsonText-Bold";
     font-size: 20px;
@@ -73,8 +85,6 @@
 
   &__timeline {
     display: flex;
-    // justify-content: center;
-    // align-items: center;
   }
 
   &__timeline-line {
@@ -187,7 +197,6 @@
       }
       p {
         color: $text-color-light;
-        // padding-top: 10px;
         max-width: 186px;
       }
     }
@@ -209,7 +218,6 @@
     }
     &-seven {
       height: 322px;
-      // margin-top: 22px;
 
       &-split {
         display: flex;
@@ -230,6 +238,7 @@
         margin-top: 25px;
         min-width: 140px;
         transform: translateX(15px);
+        z-index: -1;
       }
     }
     &-eight {
@@ -242,10 +251,52 @@
     }
   }
 
-  &__end-text {
+  &__personal-text {
     font-family: "CrimsonText-Regular";
     font-size: 16px;
-    padding: 15% 10% 10% 10%;
+    padding: 20% 10% 20% 10%;
     border-top: 1px solid $border-color;
+  }
+
+  &__renovation-imgs {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__renovation-text {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  &__renovation-timeline {
+    margin-right: 10px;
+    margin-left: 5%;
+  }
+
+  &__renovation-year {
+    padding-top: 2px;
+    margin-bottom: 15px;
+    color: $timeline-color;
+  }
+
+  &__renovation-line {
+    height: 200px;
+    margin-left: 50%;
+    border-left: 1px solid $timeline-color;
+  }
+
+  &__renovation-text-story {
+    font-family: "CrimsonText-Regular";
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 10%;
+  }
+
+  &__renovation-large-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
   }
 }
