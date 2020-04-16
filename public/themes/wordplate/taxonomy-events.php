@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="event-filter">
         <div class="event-filter-name">Filtrera</div>
         <ul class="event-filter-options" aria-label="filter events">
-            <li class="event-filter-option"><a href="/post_type_event/">Alla events</a></li>
+            <li class="event-filter-option"><a href="/post_type_event/">Alla evenemang</a></li>
             <?php
 
             // Taxonomy Loop
