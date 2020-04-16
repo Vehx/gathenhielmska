@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 662px;
   box-sizing: border-box;
   background-color: #e9e9e9;
 
@@ -31,24 +30,25 @@
     justify-content: center;
     align-items: center;
 
-    font-family: "Mukta-Bold";
-    font-size: 20.5px;
-    line-height: 23px;
-    letter-spacing: 0.11em;
     img {
       height: 35px;
       width: 45px;
       margin-bottom: 10px;
+    }
+
+    img:nth-child(2) {
+      height: 14px;
+      width: 195px;
     }
   }
 
   &__center-wrapper {
     display: flex;
     flex-direction: column;
-    height: 323px;
-    width: 82%;
-    margin-left: 9%;
-    margin-right: 9%;
+    width: 100%;
+    padding-left: 9%;
+    padding-right: 9%;
+    border-bottom: 1px solid $border-color;
   }
 
   &__newsletter {
@@ -122,7 +122,10 @@
     font-family: "CrimsonText-Regular";
     font-size: 16px;
     text-align: right;
-    text-decoration-line: underline;
+    p {
+      text-decoration-line: underline;
+    }
+
     &-email {
       word-wrap: break-word;
       margin-top: 3px;
@@ -150,7 +153,6 @@
     align-items: center;
     height: 100px;
     width: 100%;
-    border-bottom: 1px solid $border-color;
   }
 
   &__socials {
@@ -188,10 +190,77 @@
     align-items: center;
     width: 30%;
   }
+
+  &__desktop-title,
+  &__desktop-email {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .footer {
-      width: 1440px;
+  .footer {
+    // width: 1440px;
+
+    &__top-wrapper {
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      height: 171px;
+      // width: 100%;
+      // border-top: 1px solid $border-color;
+      // border-bottom: 1px solid $border-color;
     }
+
+    &__logo {
+      // display: flex;
+      flex-direction: row;
+      // justify-content: center;
+      // align-items: center;
+
+      // font-family: "Mukta-Bold";
+      // font-size: 20.5px;
+      // line-height: 23px;
+      // letter-spacing: 0.11em;
+      img {
+        margin-bottom: 0;
+      }
+
+      img:nth-child(1) {
+        height: 51px;
+        width: 66px;
+      }
+
+      img:nth-child(2) {
+        height: 20px;
+        width: 281px;
+        margin-left: 20px;
+      }
+    }
+
+    &__desktop-title {
+      display: inline;
+      font-family: "Mukta-Bold";
+      font-size: 24px;
+      line-height: 26px;
+    }
+
+    &__contact {
+      text-align: left;
+    }
+
+    &__desktop-email {
+      display: inline;
+      font-family: "Mukta-Regular";
+      font-size: 16px;
+      line-height: 18px;
+    }
+
+    &__logo-wrapper {
+      margin: 50px 0;
+    }
+
+    &__logo-higab {
+      border: none;
+    }
+  }
 }
