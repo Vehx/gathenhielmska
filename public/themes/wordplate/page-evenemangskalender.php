@@ -6,14 +6,14 @@
             <h1><?php the_title(); ?></h1>
 
             <?php the_content(); ?>
-    </section>
+
 
     <section class="event-listing">
         <div class="event-filter">
             <div class="event-filter-name">Filtrera</div>
-            <div class="custom-select" style="width:100%;">
+            <ul class="custom-select" style="width:100%;">
                 <select>
-                    <option value="0">Välj genre</option>
+                    <li>Välj genre</li>
                     <?php
                     // get the categories to filter and fix the order
                     $posts = get_posts(array(
@@ -25,17 +25,16 @@
                     ));
                     if ($posts) : ?>
                         <?php foreach ($posts as $post) : setup_postdata($post) ?>
-                            <option value="<?php the_field('type_of_event'); ?>"><?php the_field('type_of_event'); ?></option>
+                            <li><?php the_field('type_of_event'); ?></li>
                         <?php endforeach; ?>
                         <?php wp_reset_postdata(); ?>
                     <?php endif; ?>
-                </select>
-            </div>
+            </ul>
+        </div>
         </div>
     <?php endwhile; ?>
 
     <?php
-
     // get event posts from ACF
     $posts = get_posts(array(
         'post_type'            => 'post_type_event',
