@@ -12,6 +12,65 @@
         </div>
         <div class="index-comming">
             <p class="index-comming-events">KOMMANDE EVENEMANG</p>
+            <?php
+
+            // Taxonomy Loop
+
+            /**
+             *  Get the Custom Taxonomy
+             *  For a list of other parameters to pass in see link below
+             *  @link https://developer.wordpress.org/reference/classes/wp_term_query/__construct/
+             *  For a list of get_term return values see link below
+             *  @link https://codex.wordpress.org/Function_Reference/get_term
+             *
+             */
+            $terms = get_terms(array(
+                'taxonomy'   => 'events', // Swap in your custom taxonomy name
+                'hide_empty' => true,
+            ));
+
+
+
+            // Loop through all terms with a foreach loop
+            foreach ($terms as $term)
+                // Use get_term_link to get terms permalink
+                // USe $term->name to return term name
+                get_term_link($term) .  $term->name
+            ?>
+            <?php
+            // get event posts from ACF
+            $posts = get_posts(array(
+                'post_type'            => 'post_type_event',
+                'posts_per_page'    => -1,
+                'meta_key'            => 'event-time',
+                'orderby'            => 'meta_value',
+                'order'                => 'ASC',
+            ));
+
+            if ($posts) : ?>
+
+                <?php foreach ($posts as $post) :
+
+                    setup_postdata($post)
+
+                ?>
+                    <!-- The event -->
+                    <article class="event">
+                        <h2 class="event-heading"><span class="event-type"><?php echo $term->name;  ?></span> <?php the_title(); ?></h2>
+                        <?= the_post_thumbnail('medium'); ?>
+                        <?php the_excerpt(); ?>
+                        <span class="event-time"><?php the_field('event-time'); ?></span>
+                        <div class="event-cta">
+                            <button class="event-ticket"><a class="event-ticket-link" href="<?= get_field('event-ticket-link'); ?>">Biljetter</a></button>
+                            <button class="event-readmore"><a class="eventlink" href="<?php the_permalink(); ?>">Läs mer</a></button>
+                        </div>
+                    </article>
+
+                <?php endforeach; ?>
+
+                <?php wp_reset_postdata(); ?>
+
+            <?php endif; ?>
         </div>
         <!-- EVENEMANG HÄR -->
         <div class="index-event">

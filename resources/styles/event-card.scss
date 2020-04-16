@@ -1,0 +1,42 @@
+.event-card p {
+  margin: 0 20px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+}
+.event-card-title {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.event-card-cta {
+  margin: 20px;
+}
+span.event-time.card {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 110%;
+  color: #000000;
+  line-height: 38px;
+}
+button.event-ticket.card {
+  width: 131px;
+  height: 35px;
+}
+button.event-ticket.card a {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+}

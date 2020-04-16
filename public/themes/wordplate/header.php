@@ -71,16 +71,16 @@
                     <a href="#" class="to-event"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-event-expand hidden">
-                    <a href="/kurser">
+                    <a href="/events/workshop-kurs">
                         <p>KURSER</p>
                     </a>
-                    <a href="#">
+                    <a href="/post_type_event">
                         <p>EVENEMANGSKALENDER</p>
                     </a>
                     <a href="/guidad-visning">
                         <p>GUIDAD VISNING</p>
                     </a>
-                    <a href="#">
+                    <a href="/post_type_event">
                         <p>KOMMANDE EVENEMANG</p>
                     </a>
                 </div>
@@ -89,10 +89,10 @@
                     <a href="#" class="to-about"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-about-expand hidden">
-                    <a href="#">
+                    <a href="/historia">
                         <p>HISTORIA</p>
                     </a>
-                    <a href="#">
+                    <a href="/verksamhet">
                         <p>VERKSAMHETEN</p>
                     </a>
                 </div>
@@ -116,13 +116,13 @@
                     <a href="#" class="to-contact"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-contact-expand hidden">
-                    <a href="#">
+                    <a href="/medarbetare">
                         <p>MEDARBETARE</p>
                     </a>
-                    <a href="#">
+                    <a href="/arrangeraevenemang">
                         <p>ARRANGERA EVENEMANG</p>
                     </a>
-                    <a href="#">
+                    <a href="/hyrinerhososs">
                         <p>HYR IN ER HOS OSS</p>
                     </a>
 
