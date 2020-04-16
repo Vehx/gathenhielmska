@@ -52,19 +52,25 @@
     }
 
     .header-container-desktop {
-        padding: 1rem 0;
+        padding: 1rem 0 0.5rem 0;
         width: 1440px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
 
     .header-container-desktop-lang {
         display: flex;
     }
 
-    .header-container-desktop-evenemang, .header-container-dekstop-archive, .header-container-desktop-about-us, .header-container-desktop-login {
+    .header-container-desktop-evenemang, .header-container-desktop-archive, .header-container-desktop-about-us, .header-container-desktop-login {
         display: flex;
+        padding-left: 2rem;
+    }
+
+    .header-container-desktop-evenemang p, .header-container-desktop-archive p, .header-container-desktop-about-us p, .header-container-desktop-login p {
+        padding-right: 0.5rem;
+        font-family: "Mukta-Medium";
+        font-weight: 500;
+        font-size: 13px;
     }
 
     .header-container-desktop-lang a {
@@ -74,5 +80,32 @@
     .header-container-desktop a {
         text-decoration: none;
         color: black;
+    }
+
+    .header-container-desktop-logo h3 {
+        font-family: "CrimsonText-Regular";
+        padding: 0.2rem 23rem 0 0.5rem;
+    }
+
+    .header-container-desktop-logo {
+        display: flex;
+        flex-direction: row;
+        padding-left: 6rem;
+    }
+
+    .header-container-desktop-search {
+        padding: 0 3rem 0 10rem;
+        font-family: "Mukta-Medium";
+        font-size: 13px;
+    }
+
+    .header-container-desktop-lang {
+        font-family: "Mukta-Medium";
+        font-size: 16px;
+        padding-bottom: 0.5rem;
+    }
+
+    .header-container-desktop-lang a:active {
+        font-family: "Mukta-ExtraBold";
     }
 }

@@ -17,7 +17,10 @@
             </div>
         </div>
         <div class="header-container-desktop">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
+            <div class="header-container-desktop-logo">
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
+                <h3>GATHENHIELMSKA</h3>
+            </div>
             <div class="header-container-desktop-evenemang">
                 <a href="#">
                     <p>EVENEMANG</p>
@@ -50,6 +53,9 @@
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/headerarrowdesktop.svg" ?>" alt="Gray arrow" loading="lazy">
                 </a>
             </div>
+            <div class="header-container-desktop-search">
+                <p>SÖK</p>
+            </div>
             <div class="header-container-desktop-lang">
                 <a href="#">
                     <p>SV</p>
@@ -57,9 +63,6 @@
                 <a href="#">
                     <p>EN</p>
                 </a>
-            </div>
-            <div class="header-container-desktop-search">
-                <p>SÖK</p>
             </div>
         </div>
 
