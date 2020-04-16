@@ -8,6 +8,7 @@
     <div class="footer__center-wrapper">
         <div class="footer__newsletter">
             <p class="footer__desktop-title">Nyhetsbrev</p>
+            <br class="footer__desktop-title">
             <p class="footer__newsletter-title">Prenumerera på vårt nyhetsbrev</p>
             <p class="footer__desktop-email">Fyll i din epostadress för att få vårt nyhetsbrev</p>
             <p class="footer__newsletter-text">Mailadress</p>
