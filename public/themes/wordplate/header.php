@@ -88,8 +88,10 @@
                     </a>
                 </div>
                 <div class="menu-about">
-                    <p>Om oss</p>
-                    <a href="#" class="to-about"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
+                    <a href="/omoss">
+                        <p>Om oss</p>
+                    </a>
+                    <a href="/omoss" class="to-about"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-about-expand hidden">
                     <a href="/historia">
@@ -115,7 +117,9 @@
                     </a>
                 </div>
                 <div class="menu-contact">
-                    <p>Kontakt</p>
+                    <a href="/kontakt">
+                        <p>Kontakt</p>
+                    </a>
                     <a href="#" class="to-contact"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-contact-expand hidden">
