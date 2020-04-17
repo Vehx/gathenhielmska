@@ -35,7 +35,7 @@
         <p>
             Vill du vara en del av våran verksamhet som arrangör, utövare eller vill du kanske hyra ett av våra fantastiska rum för din verksamhet?
         </p>
-        <a href="/">LÄS MER</a>
+        <a href="/kontakt">LÄS MER</a>
     </div>
 </main>
 

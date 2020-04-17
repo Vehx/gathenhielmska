@@ -106,7 +106,7 @@
                     <a href="#" class="to-archive"><img src="<?php echo get_template_directory_uri() . "/assets/images/arrow.svg" ?>" alt="Arrow" loading="lazy"></a>
                 </div>
                 <div class="menu-archive-expand hidden">
-                    <a href="#">
+                    <a href="/evenemang">
                         <p>EVENEMANG</p>
                     </a>
                     <a href="#">
