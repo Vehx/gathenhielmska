@@ -12,8 +12,10 @@
     <header>
         <div class="header-container">
             <div class="header-logo">
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
-                <p>GATHENHIELMSKA</p>
+                <a href="/">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="Gathenhielmska logo" loading="lazy">
+                    <p>GATHENHIELMSKA</p>
+                </a>
             </div>
         </div>
         <div class="header-container-desktop">
